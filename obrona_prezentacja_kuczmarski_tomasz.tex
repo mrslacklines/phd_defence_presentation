@@ -1,0 +1,432 @@
+\documentclass[a4paper,9pt]{beamer}
+
+\setbeamercovered{transparent}
+%\usepackage{ifthen}
+\usepackage{caption}
+
+\captionsetup{font=scriptsize,labelfont=scriptsize}
+
+\setbeamertemplate{theorem begin}{{
+\inserttheoremheadfont
+\inserttheoremname
+\inserttheoremnumber
+\ifx \inserttheoremaddition \empty \else\ (\inserttheoremaddition)\fi%
+\inserttheorempunctuation
+\hspace{0.1cm}
+}}
+\setbeamertemplate{theorem end}{}
+
+\newtheoremstyle{mytheoremstyle} % name
+        {\topsep}                    % Space above
+        {\topsep}                    % Space below
+        {\itshape\fontfamily{ptm}\selectfont}                   % Body font
+        {}                           % Indent amount
+        {\fontfamily{ptm}\selectfont\scshape\color{blue}}                   % Theorem head font
+        {:}                          % Punctuation after theorem head
+        {.5em}                       % Space after theorem head
+        {}  % Theorem head spec (can be left empty, meaning ‘normal’)
+\theoremstyle{mytheoremstyle}
+
+
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem*{unnumberedhypothesis}{Hypothesis}
+\newtheorem*{unnumberednullhypothesis}{Null Hypothesis}
+\newtheorem{notion}{Notion}
+
+%\usepackage{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+
+
+\usetheme{Warsaw}
+\setbeamercovered{transparent}
+
+
+%\logo{\includegraphics[width=.1\textwidth]{res/logo_uam}}
+\begin{document}
+
+\title[Modeling of Polish Intonation for SPSS]{Modeling of Polish Intonation for Statistical-Parametric Speech Synthesis}
+\author[Tomasz Kuczmarski]{Tomasz Kuczmarski\\
+\vspace{0.5cm}
+\small{Prof. zw. Dr hab. In\.z. Gra\.zyna Demenko}\\
+\textit{\tiny{Supervisor}}}
+\institute{\protect{\small{Adam Mickiewicz University}}\\
+\includegraphics[width=.1\textwidth]{res/logo_uam}\\
+\tiny{Faculty of Modern Languages and Literature}\\
+\tiny{Institute of Ethnolinguistics}\\
+}
+
+% WYWALIĆ
+\date{\tiny{May 18, 2022}}
+
+%
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Intonation}
+\framesubtitle{Definition}
+\vspace{2cm}
+\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has \textbf{a phonetic aspect}, the fundamental frequency ($F0$), \textbf{and a grammatical (phonological) aspect}.'' (F\'ery 2016)}
+\begin{columns}
+\column{0.5\textwidth}
+\column{0.5\textwidth}
+\vspace{0.5cm}
+\invisible<1>{\begin{alertblock}{}
+All definitions of intonation "are epistemological
+definitions,i.e., not a priori programmatic definitions, but a posteriori statements of a practice and methodology." (Rossi 2000)
+\end{alertblock}}
+\end{columns}
+\end{frame}
+
+\section{Motivation}
+
+\begin{frame}
+\frametitle{Motivation}
+\begin{columns}
+\column{0.4\textwidth}
+\begin{center}
+\alt<2->{
+\includegraphics[width=\textwidth]{res/mapping_highlight.png}
+}
+{
+\includegraphics[width=\textwidth]{res/head_mapping.png}
+}
+\end{center}
+\column{0.6\textwidth}
+\pause
+\begin{exampleblock}{Motivation}
+\begin{itemize}
+\item[\checkmark] Epistemological definition of intonation.
+\item[\checkmark] Dualistic gap between phonology and phonetics.
+\item[\checkmark] Unification within a broader metatheory.
+\item[\checkmark] Unknown nature of the mappings between mental categories and continuous contours of $F0$.
+\item[\checkmark] Need for a physicalist (neurobiological) model.
+\item[\checkmark] Modern statstical-parametric speech synthesis provides a framework for experimentation and evaluation of such models.
+\end{itemize}
+\end{exampleblock}
+\end{columns}
+\end{frame}
+
+
+
+\section{Objectives}
+\begin{frame}
+\frametitle{Objectives}
+\begin{enumerate}
+\item<1-2> Build a robust biologically-inspired neural model of the probabilistic mapping between discrete low-level linguistic features of an utterance and its intonation contours ($F0$ values).
+\item<2> Build a state-of-the-art neural source-filter resynthesis framework for Polish read speech.
+\item<2> Deploy the intonation model within the resynthesis framework and measure the perceived naturalness of the output intonation contours, and to
+\item<2> operationalize the results of these measurements as an indicator of the model's robustness.
+\item<2> Develop a method to explain the relevance of the individual input linguistic features for the produced intonation contour.
+\item<1-2> Analyze how specific linguistic features contribute to the $F0$ contours of an utterance.
+\end{enumerate}
+\end{frame}
+
+\subsection{Hypotheses}
+\begin{frame}
+\frametitle{Main Hypotheses}
+\begin{tcolorbox}
+\begin{hypothesis}[] The continous $F_0$ contours of an utterance emerge from its discrete linguistic features through a series of successive probabilistic mappings into intermediate latent represenentations.
+\end{hypothesis}
+\begin{hypothesis}
+The biologically-inspired Deep Temporal Convolutional Network can be an effective model of these mappings and hence of Polish neutral read speech intonation in the context of statistical-parametric speech synthesis. \label{secondary:a}
+\end{hypothesis}
+\begin{hypothesis}
+The set of shallow linguistic features used in this thesis provides information which is sufficient for synthesis of natural sounding intonation in the context of statistical-parametric speech synthesis. \label{secondary:b}
+\end{hypothesis}
+\end{tcolorbox}
+\end{frame}
+
+\subsection{Contributory Methodological Hypothesis}
+\begin{frame}
+\frametitle{Contributory Methodological Hypothesis}
+\begin{tcolorbox}
+\begin{hypothesis}[contributory methodological]
+\label{contributory}
+A Deep Temporal Convolutional Network can become an explanatory scientific model of mappings between linguistics features and the intonation of an utterance.
+\end{hypothesis}
+\end{tcolorbox}
+\end{frame}
+
+\section{Background}
+%2. Stan badan na swiecie i w Polsce (tu trzeba wspomniec i Gibona i Moebiusa)
+%Odnosnie modelowania intonacji prosze nie popelnic bledu jak na egzaminie, pani Klessa nie zajmowala sie nigdy modelowaniem intonacji!
+%Natomiast duzo pracy w modelowanie intonacji polskiej wlozyla Agnieszka na podstawie mojej pracy
+%-Modelowanie intonacji na potrzeby technologii mowy”
+
+% TODO: Dodać notke o brakach Fujisaki, Bollinger np. z cytatem o gigancie + cognitive & biolinguistic revolution, Skinner etc.
+
+% NOTES: Acoustic correlates rather than phonetic models
+
+\subsection{Intonation research in the world}
+\begin{frame}
+\frametitle{Background}
+\includegraphics[width=\textwidth]{res/background.png}
+\end{frame}
+
+\subsection{Intonation research in Poland}
+\begin{frame}
+\frametitle{Background}
+\includegraphics[width=\textwidth]{res/intonation_background_pl.png}
+\end{frame}
+
+\subsection{Intonation models}
+\begin{frame}
+\frametitle{Intonation models}
+\includegraphics[width=\textwidth]{res/inotnation_models_venn.png}
+\end{frame}
+
+\subsection{Speech synthesis}
+\begin{frame}
+\frametitle{Speech synthesis}
+\includegraphics[width=0.9\textwidth]{res/speech_synthesis_clunit_hmm.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\includegraphics[width=0.8\textwidth]{res/speech_synthesis_wavenet.png}
+\begin{columns}
+\column{0.4\textwidth}
+\column{0.6\textwidth}
+\begin{exampleblock}{}
+Wavenet belongs to a class of models known as\\
+Convolutional Neural Networks (CNNs).
+\end{exampleblock}
+\end{columns}
+\end{frame}
+
+\subsection{Wavenet}
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\begin{columns}
+\column{0.75\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/wavenet_evaluation.png}
+\end{center}
+	\caption{Google WaveNet evaluation results as compared with Google's best concatenative and parametric systems. (from van den Oord 2016).}
+\end{figure}
+\column{0.25\textwidth}
+\begin{exampleblock}{}
+The idea behind Wavenet is based on a PixelCNN Image Generator also by developed by van den Oord (2016) at Google's DeepMind.
+\end{exampleblock}
+\end{columns}
+\begin{center}
+  \includegraphics[width=1cm]{res/speaker_icon.png}
+\end{center}
+\end{frame}
+
+
+\subsection{Neurobiological foundations}
+\begin{frame}
+\frametitle{Neurobiological foundations}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/hubel-experiment-cat.png}
+\end{center}
+	\caption{Famous Hubel and Wiesel cat experiment. (adopted from Hubel and Wiesel 1959).}
+\end{figure}
+\column{0.5\textwidth}
+\vspace{0.8cm}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/hubel-experiment-cat-2.png}
+\end{center}
+	\caption{Neural response of simple cells. (adopted from Hubel and Wiesel 1968).}
+\end{figure}
+\end{columns}
+\hrule
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/simple_cells.png}
+\end{center}
+	\caption{Simple receptive fields. (adopted from Hubel and Wiesel 1962).}
+\end{figure}
+\column{0.5\textwidth}
+\vspace{0.2cm}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/complex_cells.png}
+\end{center}
+	\caption{Three different types of complex receptive fields. (adopted from Hubel and Wiesel 1962).}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Neurobiological foundations}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/human_vision.png}
+\end{center}
+	\caption{Hierarchical, feedforward visual processing in human brain. (Adopted from Manassi et al. 2013)}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Neurobiological foundations}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/convolution.png}
+\end{center}
+	\caption{Example of a 2-dimensional matrix convolution.}
+\end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/convolution_kernels_examples.png}
+\end{center}
+	\caption{Examples of convoluting and image with different convolution kernels. (Adopted from the Wikipedia).}
+\end{figure}
+\end{columns}
+\hrule
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/simple_cells.png}
+\end{center}
+	\caption{Simple receptive fields. (adopted from Hubel and Wiesel 1962).}
+\end{figure}
+\column{0.5\textwidth}
+\vspace{0.7cm}
+\begin{block}{}
+Simple cells perform edge and line detection which can be very effectively approximated with matrix convolution.
+\end{block}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Neurobiological foundations}
+\begin{columns}
+\column{0.5\textwidth}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/max_pooling.png}
+\end{center}
+	\caption{Example of a 2x2 max pooling matrix operation.}
+\end{figure}
+\end{columns}
+\hrule
+\begin{columns}
+\column{0.5\textwidth}
+\begin{block}{}
+The function of the complex cells can be well approximated by the max pooling operation.
+\end{block}
+\column{0.5\textwidth}
+\vspace{0.7cm}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/complex_cells.png}
+\end{center}
+	\caption{Three different types of complex receptive fields. (adopted from Hubel and Wiesel 1962).}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Neurobiological foundations}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/lenet.png}
+\end{center}
+	\caption{Image recognition Convolutional Neural Network (LeNet-5). (Adopted from LeCun et al. 1989)}
+\end{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{res/filter_vis.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Neural auditory processing}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{res/simple_cells_auditory_cortes.png}
+\end{center}
+	\caption{Responses of single neurons in primary auditory cortex (A1) of rhesus monkeys to band-passed noise (BPN) bursts centered at particular frequencies.. (Adopted from Tian et al. 2013)}
+\end{figure}
+\begin{columns}
+\column{0.3\textwidth}
+\column{0.7\textwidth}
+\begin{exampleblock}{}
+Auditory cortex also contains simple cells with two dimensional receptive fields that are similar to those in the visual cortex but operate in the spectrotemporal domain.
+\end{exampleblock}
+\end{columns}
+\end{frame}
+
+\subsection{Explanatory properties of CNNs}
+
+\begin{frame}
+\frametitle{Explanatory properties of CNNs}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.65\textwidth]{res/sensitivity_vs_relevance}
+\end{center}
+	\caption{Results of sensitivity-based and relevance-based explainability methods. (Based on Samek 2016)}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Deep Taylor Decomposition}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/deep_taylor}
+\end{center}
+	\caption{Computational flow of deep Taylor decomposition. (Adopted from Montavon 2017).}
+\end{figure}
+\column{0.5\textwidth}
+\begin{exampleblock}{}
+The relevance in this framework can be defined as:
+\begin{equation}
+R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
+\label{background:lrp.z}
+\end{equation}
+\end{exampleblock}
+\end{columns}
+\end{frame}
+
+
+
+\section{Methodology}
+
+\subsection{Dataset}
+%4.Material eksperymentalny
+
+\subsection{Methods}
+
+
+\section{Results}
+%5. Wyniki
+
+\section{Hypotheses conclusions}
+%6. Czy tezy zostaly udowodnione
+
+\section{Future prospects}
+%7. Aspekty przyszlosciowe i praktyczne
+
+\begin{frame}
+
+\begin{center}
+Thank you.
+\end{center}
+\end{frame}
+
+
+\end{document}
