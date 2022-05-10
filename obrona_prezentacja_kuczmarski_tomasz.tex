@@ -72,7 +72,7 @@
 \frametitle{Intonation}
 \framesubtitle{Definition}
 \vspace{2cm}
-\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has \textbf{a phonetic aspect}, the fundamental frequency ($F0$), \textbf{and a grammatical (phonological) aspect}.'' (F\'ery 2016)}
+\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has a phonetic aspect, the fundamental frequency ($F0$), and a grammatical (phonological) aspect.''} (F\'ery 2016)
 \begin{columns}
 \column{0.5\textwidth}
 \column{0.5\textwidth}
@@ -91,21 +91,16 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 \begin{columns}
 \column{0.4\textwidth}
 \begin{center}
-\alt<2->{
 \includegraphics[width=\textwidth]{res/mapping_highlight.png}
-}
-{
-\includegraphics[width=\textwidth]{res/head_mapping.png}
-}
 \end{center}
 \column{0.6\textwidth}
-\pause
 \begin{exampleblock}{Motivation}
 \begin{itemize}
 \item[\checkmark] Epistemological definition of intonation.
 \item[\checkmark] Dualistic gap between phonology and phonetics.
 \item[\checkmark] Unification within a broader metatheory.
 \item[\checkmark] Unknown nature of the mappings between mental categories and continuous contours of $F0$.
+\item[\checkmark] Explore how linguistic features of an utterance influence its $F0$ contours.
 \item[\checkmark] Need for a physicalist (neurobiological) model.
 \item[\checkmark] Modern statstical-parametric speech synthesis provides a framework for experimentation and evaluation of such models.
 \end{itemize}
@@ -116,6 +111,7 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 
 
 \section{Objectives}
+\subsection{Objectives}
 \begin{frame}
 \frametitle{Objectives}
 \begin{enumerate}
@@ -201,25 +197,58 @@ Convolutional Neural Networks (CNNs).
 \end{columns}
 \end{frame}
 
+
 \subsection{Wavenet}
 \begin{frame}
 \frametitle{Speech synthesis - Wavenet}
-\begin{columns}
-\column{0.75\textwidth}
 \begin{figure}
 \begin{center}
-  \includegraphics[width=\textwidth]{res/wavenet_evaluation.png}
+  \includegraphics[width=0.75\textwidth]{res/wavenet_evaluation.png}
 \end{center}
 	\caption{Google WaveNet evaluation results as compared with Google's best concatenative and parametric systems. (from van den Oord 2016).}
 \end{figure}
-\column{0.25\textwidth}
-\begin{exampleblock}{}
-The idea behind Wavenet is based on a PixelCNN Image Generator also by developed by van den Oord (2016) at Google's DeepMind.
-\end{exampleblock}
-\end{columns}
 \begin{center}
   \includegraphics[width=1cm]{res/speaker_icon.png}
 \end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/dilated_convolutions.png}
+\end{center}
+	\caption{Dilated causal convolutions. (Adopted from the original WaveNet paper).}
+\end{figure}
+The causality is expressed through the joint probability of the modeled waveform 
+$\vec{x} = \{ x_1, \dots, x_T \}$
+being factorized as a product of conditional probabilities of all previous timesteps (van den Oord 2016), i.e.:
+\begin{equation}
+p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\begin{columns}
+\column{0.6\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/residual_blocks.png}
+\end{center}
+	\caption{Residual and skip connections from a stack of k gated convolutional layers (Adopted from the original WaveNet paper).}
+\end{figure}
+\column{0.4\textwidth}
+\begin{exampleblock}{}
+\tiny{Gated convolutional layers:
+\begin{equation}
+\vec{z} = \tanh \left(W_{f, k} \ast \vec{x}\right) \odot \sigma \left(W_{g, k} \ast \vec{x} \right), \label{eq:gated_activation}
+\end{equation}
+where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise multiplication operator, $\sigma(\cdot)$ is a sigmoid function, $k$ is the layer index, $f$ and $g$ denote filter and gate, respectively, and $W$ is a learnable convolution filter.}
+\end{exampleblock}
+\end{columns}
 \end{frame}
 
 
@@ -404,19 +433,122 @@ R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 
 
 
-\section{Methodology}
+\section{Methods}
 
 \subsection{Dataset}
 %4.Material eksperymentalny
 
-\subsection{Methods}
+\begin{frame}
+\frametitle{Dataset}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/dataset_structure}
+\end{center}
+	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Dataset}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.4\textwidth]{res/dataset_structure_simple}
+\end{center}
+	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Dataset}
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{res/dataset_blf}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Dataset}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/database_structure_explanation}
+\end{center}
+\end{frame}
+
+\subsection{Data preprocessing}
+
+\begin{frame}
+\frametitle{Data preprocessing}
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{res/dataset_preprocessing}
+\end{center}
+\end{frame}
+
+
+\subsection{Feature extraction}
+
+\begin{frame}
+\frametitle{Feature extraction}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/dataset_feature_extraction}
+\end{center}
+\end{frame}
+
+\subsection{Feature set}
+
+\begin{frame}
+\frametitle{Feature set}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/segmental_features}
+\end{center}
+\caption{Segmental features for a quintphone-wide context.}
+\end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{res/suprasegmental_features}
+\end{center}
+\caption{Non-segmental features.}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\subsection{Model implementation}
+
+\begin{frame}
+\frametitle{Model implementation}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/residual_block}
+\end{center}
+\caption{Segmental features for a quintphone-wide context.}
+\end{figure}
+\column{0.5\textwidth}
+\begin{center}
+\includegraphics[width=2cm]{res/implementation_framework}
+\end{center}
+\hrule
+\begin{exampleblock}{Complete code repository}
+\begin{itemize}
+\item[\checkmark] \scriptsize{\url{https://github.com/mrslacklines/intonation_synthesis}}
+\end{itemize}
+\end{exampleblock}
+\end{columns}
+\end{frame}
 
 
 \section{Results}
 %5. Wyniki
 
+\subsection{Contribution}
+
 \section{Hypotheses conclusions}
 %6. Czy tezy zostaly udowodnione
+
+
 
 \section{Future prospects}
 %7. Aspekty przyszlosciowe i praktyczne
@@ -426,6 +558,46 @@ R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 \begin{center}
 Thank you.
 \end{center}
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Additional slides
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/stress_accent_labels}
+\end{center}
+	\caption{Stress and accent labels used in the original Polish BOSS speech corpus.}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/boundary_tones}
+\end{center}
+	\caption{Prosodic phrase boundary labels used in the original Polish BOSS speech corpus.}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.4\textwidth]{res/tonal_accents}
+\end{center}
+	\caption{Acoustic realizations of the 9 different accents. Adopted from (Demenko 1999).}
+\end{figure}
 \end{frame}
 
 
