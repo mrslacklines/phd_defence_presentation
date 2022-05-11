@@ -2,9 +2,15 @@
 
 \setbeamercovered{transparent}
 %\usepackage{ifthen}
-\usepackage{caption}
+%\usepackage{caption}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
-\captionsetup{font=scriptsize,labelfont=scriptsize}
+
+%\captionsetup{font=scriptsize,labelfont=scriptsize}
+\setbeamerfont{caption}{size=\scriptsize}
+
 
 \setbeamertemplate{theorem begin}{{
 \inserttheoremheadfont
@@ -34,7 +40,7 @@
 \newtheorem{notion}{Notion}
 
 %\usepackage{polski}
-\usepackage[cp1250]{inputenc}
+%\usepackage[cp1250]{inputenc}
 \usepackage{tcolorbox}
 \usepackage{tikz}
 
@@ -89,22 +95,24 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 \begin{frame}
 \frametitle{Motivation}
 \begin{columns}
-\column{0.4\textwidth}
+\column{0.5\textwidth}
 \begin{center}
 \includegraphics[width=\textwidth]{res/mapping_highlight.png}
 \end{center}
-\column{0.6\textwidth}
+\column{0.5\textwidth}
+\scriptsize{
 \begin{exampleblock}{Motivation}
 \begin{itemize}
-\item[\checkmark] Epistemological definition of intonation.
 \item[\checkmark] Dualistic gap between phonology and phonetics.
 \item[\checkmark] Unification within a broader metatheory.
 \item[\checkmark] Unknown nature of the mappings between mental categories and continuous contours of $F0$.
-\item[\checkmark] Explore how linguistic features of an utterance influence its $F0$ contours.
+\item[\checkmark] How linguistic features of an utterance influence its $F0$ contours.
 \item[\checkmark] Need for a physicalist (neurobiological) model.
-\item[\checkmark] Modern statstical-parametric speech synthesis provides a framework for experimentation and evaluation of such models.
+\item[\checkmark] Modern statstical-parametric speech synthesis provides a framework for experimentation and evaluation of such
+\item[\checkmark] Remarkable properties of biologically-motivated Convolutional Neural Networks.
 \end{itemize}
 \end{exampleblock}
+}
 \end{columns}
 \end{frame}
 
@@ -172,89 +180,71 @@ A Deep Temporal Convolutional Network can become an explanatory scientific model
 \includegraphics[width=\textwidth]{res/intonation_background_pl.png}
 \end{frame}
 
-\subsection{Intonation models}
-\begin{frame}
-\frametitle{Intonation models}
-\includegraphics[width=\textwidth]{res/inotnation_models_venn.png}
-\end{frame}
-
 \subsection{Speech synthesis}
 \begin{frame}
 \frametitle{Speech synthesis}
-\includegraphics[width=0.9\textwidth]{res/speech_synthesis_clunit_hmm.png}
-\end{frame}
-
-\begin{frame}
-\frametitle{Speech synthesis - Wavenet}
-\includegraphics[width=0.8\textwidth]{res/speech_synthesis_wavenet.png}
 \begin{columns}
+\begin{column}{0.6\textwidth}
+\includegraphics[width=\textwidth]{res/speech_synthesis_clunit_hmm.png}
+\end{column}
+\vrule{}
 \column{0.4\textwidth}
-\column{0.6\textwidth}
-\begin{exampleblock}{}
-Wavenet belongs to a class of models known as\\
-Convolutional Neural Networks (CNNs).
-\end{exampleblock}
+\vspace{2cm}
+\includegraphics[width=\textwidth]{res/speech_synthesis_wavenet.png}\\
 \end{columns}
-\end{frame}
-
-
-\subsection{Wavenet}
-\begin{frame}
-\frametitle{Speech synthesis - Wavenet}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=0.75\textwidth]{res/wavenet_evaluation.png}
-\end{center}
-	\caption{Google WaveNet evaluation results as compared with Google's best concatenative and parametric systems. (from van den Oord 2016).}
-\end{figure}
-\begin{center}
-  \includegraphics[width=1cm]{res/speaker_icon.png}
-\end{center}
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Speech synthesis - Wavenet}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=\textwidth]{res/dilated_convolutions.png}
-\end{center}
-	\caption{Dilated causal convolutions. (Adopted from the original WaveNet paper).}
-\end{figure}
-The causality is expressed through the joint probability of the modeled waveform 
-$\vec{x} = \{ x_1, \dots, x_T \}$
-being factorized as a product of conditional probabilities of all previous timesteps (van den Oord 2016), i.e.:
-\begin{equation}
-p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\right)
-\end{equation}
 \end{frame}
 
 \begin{frame}
 \frametitle{Speech synthesis - Wavenet}
 \begin{columns}
-\column{0.6\textwidth}
+\column{0.4\textwidth}
 \begin{figure}
 \begin{center}
-  \includegraphics[width=\textwidth]{res/residual_blocks.png}
+  \includegraphics[width=\textwidth]{res/wavenet_evaluation.png}
 \end{center}
-	\caption{Residual and skip connections from a stack of k gated convolutional layers (Adopted from the original WaveNet paper).}
+	\caption{Google WaveNet evaluation results. (from van den Oord 2016).}
 \end{figure}
-\column{0.4\textwidth}
 \begin{exampleblock}{}
-\tiny{Gated convolutional layers:
-\begin{equation}
-\vec{z} = \tanh \left(W_{f, k} \ast \vec{x}\right) \odot \sigma \left(W_{g, k} \ast \vec{x} \right), \label{eq:gated_activation}
-\end{equation}
-where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise multiplication operator, $\sigma(\cdot)$ is a sigmoid function, $k$ is the layer index, $f$ and $g$ denote filter and gate, respectively, and $W$ is a learnable convolution filter.}
+\scriptsize{
+Wavenet belongs to a class of models known as
+\textbf{Convolutional Neural Networks} (CNNs)
+which are used mainly in the area of of image recognition where they excel.}
 \end{exampleblock}
+\begin{center}
+  \includegraphics[width=0.5cm]{res/speaker_icon.png}
+\end{center}
+\column{0.6\textwidth}
+\includegraphics[width=\textwidth]{res/tcn.png}
 \end{columns}
 \end{frame}
 
+\subsection{Neurobiological foundations of CNNs}
 
-\subsection{Neurobiological foundations}
 \begin{frame}
-\frametitle{Neurobiological foundations}
+\frametitle{Visual processing in the human brain}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.75\textwidth]{res/human_vision.png}
+\end{center}
+	\caption{Hierarchical, feedforward visual processing in human brain. (Adopted from Manassi et al. 2013)}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{CNN feature maps}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/lenet.png}
+\end{center}
+	\caption{Image recognition Convolutional Neural Network (LeNet-5). (Adopted from LeCun et al. 1989)}
+\end{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{res/filter_vis.png}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Simple and complex cells in the visual cortex}
 \begin{columns}
 \column{0.5\textwidth}
 \begin{figure}
@@ -293,17 +283,7 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \end{frame}
 
 \begin{frame}
-\frametitle{Neurobiological foundations}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=0.75\textwidth]{res/human_vision.png}
-\end{center}
-	\caption{Hierarchical, feedforward visual processing in human brain. (Adopted from Manassi et al. 2013)}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\frametitle{Neurobiological foundations}
+\frametitle{Neurobiological foundations of CNNs}
 \begin{columns}
 \column{0.5\textwidth}
 \begin{figure}
@@ -331,17 +311,24 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \end{figure}
 \column{0.5\textwidth}
 \vspace{0.7cm}
-\begin{block}{}
-Simple cells perform edge and line detection which can be very effectively approximated with matrix convolution.
-\end{block}
+\scriptsize{
+\begin{exampleblock}{}
+\textbf{Simple cells} perform edge and line detection which can be very effectively approximated with matrix \textbf{convolution}.
+\end{exampleblock}
+}
 \end{columns}
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Neurobiological foundations}
+\frametitle{Neurobiological foundations of CNNs}
 \begin{columns}
 \column{0.5\textwidth}
+\scriptsize{
+\begin{exampleblock}{}
+The computations that the \textbf{complex cells} perform are similiar to the \textbf{max pooling} operation.
+\end{exampleblock}
+}
 \column{0.5\textwidth}
 \begin{figure}
 \begin{center}
@@ -349,15 +336,7 @@ Simple cells perform edge and line detection which can be very effectively appro
 \end{center}
 	\caption{Example of a 2x2 max pooling matrix operation.}
 \end{figure}
-\end{columns}
 \hrule
-\begin{columns}
-\column{0.5\textwidth}
-\begin{block}{}
-The function of the complex cells can be well approximated by the max pooling operation.
-\end{block}
-\column{0.5\textwidth}
-\vspace{0.7cm}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/complex_cells.png}
@@ -368,20 +347,7 @@ The function of the complex cells can be well approximated by the max pooling op
 \end{frame}
 
 \begin{frame}
-\frametitle{Neurobiological foundations}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=\textwidth]{res/lenet.png}
-\end{center}
-	\caption{Image recognition Convolutional Neural Network (LeNet-5). (Adopted from LeCun et al. 1989)}
-\end{figure}
-\begin{center}
-\includegraphics[width=0.6\textwidth]{res/filter_vis.png}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{Neural auditory processing}
+\frametitle{Simple and complex cells in the auditory cortex}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.9\textwidth]{res/simple_cells_auditory_cortes.png}
@@ -391,9 +357,11 @@ The function of the complex cells can be well approximated by the max pooling op
 \begin{columns}
 \column{0.3\textwidth}
 \column{0.7\textwidth}
+\scriptsize{
 \begin{exampleblock}{}
-Auditory cortex also contains simple cells with two dimensional receptive fields that are similar to those in the visual cortex but operate in the spectrotemporal domain.
+Auditory cortex also contains \textbf{simple (and complex) cells} with two-dimensional receptive fields that are similar to those in the visual cortex but which operate in the \textbf{spectrotemporal domain} instead.
 \end{exampleblock}
+}
 \end{columns}
 \end{frame}
 
@@ -410,68 +378,22 @@ Auditory cortex also contains simple cells with two dimensional receptive fields
 \end{frame}
 
 
-\begin{frame}
-\frametitle{Deep Taylor Decomposition}
-\begin{columns}
-\column{0.5\textwidth}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=\textwidth]{res/deep_taylor}
-\end{center}
-	\caption{Computational flow of deep Taylor decomposition. (Adopted from Montavon 2017).}
-\end{figure}
-\column{0.5\textwidth}
-\begin{exampleblock}{}
-The relevance in this framework can be defined as:
-\begin{equation}
-R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
-\label{background:lrp.z}
-\end{equation}
-\end{exampleblock}
-\end{columns}
-\end{frame}
-
-
-
 \section{Methods}
 
 \subsection{Dataset}
 %4.Material eksperymentalny
 
-\begin{frame}
-\frametitle{Dataset}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=0.7\textwidth]{res/dataset_structure}
-\end{center}
-	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
-\end{figure}
-\end{frame}
 
 \begin{frame}
 \frametitle{Dataset}
 \begin{figure}
 \begin{center}
-  \includegraphics[width=0.4\textwidth]{res/dataset_structure_simple}
+  \includegraphics[width=0.8\textwidth]{res/dataset_blf}
 \end{center}
 	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
 \end{figure}
 \end{frame}
 
-\begin{frame}
-\frametitle{Dataset}
-\begin{center}
-  \includegraphics[width=0.9\textwidth]{res/dataset_blf}
-\end{center}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Dataset}
-\begin{center}
-  \includegraphics[width=\textwidth]{res/database_structure_explanation}
-\end{center}
-\end{frame}
 
 \subsection{Data preprocessing}
 
@@ -492,50 +414,140 @@ R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 \end{center}
 \end{frame}
 
-\subsection{Feature set}
 
-\begin{frame}
-\frametitle{Feature set}
-\begin{columns}
-\column{0.5\textwidth}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=0.6\textwidth]{res/segmental_features}
-\end{center}
-\caption{Segmental features for a quintphone-wide context.}
-\end{figure}
-\column{0.5\textwidth}
-\begin{figure}
-\begin{center}
-  \includegraphics[width=0.8\textwidth]{res/suprasegmental_features}
-\end{center}
-\caption{Non-segmental features.}
-\end{figure}
-\end{columns}
-\end{frame}
 
 \subsection{Model implementation}
 
 \begin{frame}
 \frametitle{Model implementation}
 \begin{columns}
-\column{0.5\textwidth}
-\begin{figure}
+\column{0.6\textwidth}
 \begin{center}
-  \includegraphics[width=0.6\textwidth]{res/residual_block}
+  \includegraphics[width=\textwidth]{res/tcn}
 \end{center}
-\caption{Segmental features for a quintphone-wide context.}
-\end{figure}
-\column{0.5\textwidth}
+\column{0.4\textwidth}
+\scriptsize{
+\begin{exampleblock}{TCN parameters}
+\begin{itemize}
+\item 6 residual layers,
+\item 64 convolution filters of length 2
+\item $2^n$ dilations ($[1, 2, 4, 8, 16, 32]$)
+\item 2 final fully connected dense layers (ReLU activation; sizes 64 and 1)
+\end{itemize}
+\end{exampleblock}
+\begin{exampleblock}{Complete code repository}
+\begin{itemize}
+\item[\checkmark] \url{https://github.com/mrslacklines/intonation_synthesis}
+\end{itemize}
+\end{exampleblock}
+\begin{block}
+{}
+\scriptsize{\url{github.com/philipperemy/keras-tcn}}
+\end{block}
+}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Model training infrastructure}
+\begin{columns}
+\begin{column}{0.7\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/cloud_training}
+\end{center}
+\hrule
+\begin{itemize}
+\item 64 CPUs; 488GB
+\item 8 NVIDIA Tesla V100 GPUs; 128GB
+\end{itemize}
+\scriptsize{
+\begin{exampleblock}{Memory requirements}
+A single batch of data, which is a $64\times1900\times1297$ vector of 8-byte boolean
+values, occupies 1.2617216 gigabytes of memory, and the model comprises of a total
+of 449,409 parameters (446,337 trainable and 3,072 non-trainable).
+\end{exampleblock}
+}
+\end{column}
+\vrule{}
+\column{0.3\textwidth}
 \begin{center}
 \includegraphics[width=2cm]{res/implementation_framework}
 \end{center}
 \hrule
-\begin{exampleblock}{Complete code repository}
+\vspace{0.1cm}
+\scriptsize{
+Training parameters:
 \begin{itemize}
-\item[\checkmark] \scriptsize{\url{https://github.com/mrslacklines/intonation_synthesis}}
+\item ADAM optimizer
+\item initial learning rate of $0.1$,
+\item $\beta_{1} = 0.9$,
+\item $\beta_{2} = 0.999$,
+\item $\varepsilon = 1e-07$.
+\item \textbf{Loss metric}: Mean Squared Error (MSE)
+\item 200 epochs
+\item random 8:1:1 dataset split
 \end{itemize}
+}
+\end{columns}
+\end{frame}
+
+\subsection{Inference and relevance analysis}
+
+\begin{frame}
+\frametitle{F0 inference and feature relevance analysis}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{res/deep_taylor}
+\end{center}
+	\caption{Computational flow of deep Taylor decomposition. (Adopted from Montavon 2017).}
+\end{figure}
+\scriptsize{
+\begin{exampleblock}{}
+{INNvestigate} Neural Networks!\\(Alber et al. 2019)\\
+\url{github.com/albermax/innvestigate}
+\vspace{0.2cm}
 \end{exampleblock}
+}
+\column{0.7\textwidth}
+\includegraphics[width=\textwidth]{res/inference_and_relevance_analysis}
+\end{columns}
+\end{frame}
+
+\subsection{Evaluation}
+
+\begin{frame}
+\frametitle{Resynthesis}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/resynthesis}
+\end{center}
+\scriptsize{
+\begin{block}{}
+Neural Source Filter Vocoder from (X. Wang et al. 2019)
+\end{block}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Perceptual evaluation experiment}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/experiment_infra}
+\end{center}
+  \includegraphics[width=0.5\textwidth]{res/experiment_stack}
+\end{column}
+\column{0.5\textwidth}
+  \includegraphics[width=0.8\textwidth]{res/experiment_diagram}
+  \scriptsize{
+\begin{exampleblock}{}
+\textbf{Available at:}\\
+\url{fonetyka.cudaniewidy.org/experiment}\\
+\textbf{Code at:}\\
+\url{/github.com/mrslacklines/listening_experiments}
+\end{exampleblock}
+}
 \end{columns}
 \end{frame}
 
@@ -543,14 +555,175 @@ R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 \section{Results}
 %5. Wyniki
 
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Lokatorzy znale\'zli si\k{e} w podbramkowej sytuacji i musieli si\k{e} wyprowadzi\'c" (\textit{The tenants found themselves in a difficult situation and had to move out}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Powodzenie nie jest gwarantowane" (\textit{Success is not guaranteed}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Gadu\l{}a by\l{}a bardzo niezno\'sna" (\textit{Gabby was very annoying.}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Mo\.ze przynios\k{a} te\.z gorza\l{}\k{e}" (\textit{Maybe they will bring booze too.}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "To jest wa\.zna godzina dla nas wszystkich" (\textit{This is an important hour for all of us}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "My\'sl\k{e}, \.ze chleb razowy b\k{e}dzie najlepszy" (\textit{I think that a wholemeal bread will be the best}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "S\l{}ysza\l{}am odg\l{}os zbli\.zaj\k{a}cego si\k{e} poci\k{a}gu" (\textit{I heard the sound of an approaching train}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Czy to by\l{} \l{}atwy dob\'or?" (\textit{Was it an easy choice?}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "To Majka" (\textit{This is Majka}).}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{F0 inference results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq}
+\end{center}
+	\caption{Result of $F_0$ prediction for "Na czym polega kandyzacja?" (\textit{How does candying work?}).}
+\end{figure}
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Objective evaluation results}
+%\begin{columns}
+%\column{0.5\textwidth}
+%\vspace{1.3cm}
+%\begin{figure}
+%\begin{center}
+%  \includegraphics[width=0.9\textwidth]{res/mse}
+%\end{center}
+%	\caption{Mean MSE scores in the test dataset for $\log F_0$ predictions.}
+%\end{figure}
+%\column{0.5\textwidth}
+%\includegraphics[width=0.9\textwidth]{res/mse_formula}
+%\end{columns}
+%\end{frame}
+
+
+\begin{frame}
+\frametitle{Subjective evaluation results - MOS}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.35\textwidth]{res/MOS-answer}
+\end{center}
+	\caption{Mean Opinion Score-based evaluation results.}
+\end{figure}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{res/MOS_number_of_scores_natural_stimuli}
+\end{center}
+\caption{Mean Opinion Score-based evaluation total numbers of specific scores for natural stimuli.}
+\end{figure}
+\column{0.3\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.5\textwidth]{res/MOS_stimulus_type_mean_response_time}
+\end{center}
+	\caption{Mean Opinion Score-based evaluation mean response times for synthetic and natural stimuli.}
+\end{figure}
+\column{0.3\textwidth}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{res/MOS_number_of_scores_synthetic_stimuli}
+\end{center}
+\caption{Mean Opinion Score-based evaluation total numbers of specific scores for synthetic stimuli.}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Subjective evaluation results - MOS}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{res/MOS_correlation_matrix}
+\end{center}
+\caption{Mean Opinion Score-based evaluation parameters correlation matrix.}
+\end{figure}
+\end{frame}
+
+
 \subsection{Contribution}
 
-\section{Hypotheses conclusions}
+\subsection{Hypotheses conclusions}
 %6. Czy tezy zostaly udowodnione
 
 
 
-\section{Future prospects}
+\section{Discussion}
 %7. Aspekty przyszlosciowe i praktyczne
 
 \begin{frame}
@@ -572,6 +745,59 @@ Thank you.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Additional slides
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{Intonation models}
+\includegraphics[width=\textwidth]{res/inotnation_models_venn.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/dilated_convolutions.png}
+\end{center}
+	\caption{Dilated causal convolutions. (Adopted from the original WaveNet paper).}
+\end{figure}
+The causality is expressed through the joint probability of the modeled waveform 
+$\vec{x} = \{ x_1, \dots, x_T \}$
+being factorized as a product of conditional probabilities of all previous timesteps (van den Oord 2016), i.e.:
+\begin{equation}
+p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+\frametitle{Speech synthesis - Wavenet}
+\begin{columns}
+\column{0.6\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/residual_blocks.png}
+\end{center}
+	\caption{Residual and skip connections from a stack of k gated convolutional layers (Adopted from the original WaveNet paper).}
+\end{figure}
+\column{0.4\textwidth}
+\begin{exampleblock}{}
+\tiny{Gated convolutional layers:
+\begin{equation}
+\vec{z} = \tanh \left(W_{f, k} \ast \vec{x}\right) \odot \sigma \left(W_{g, k} \ast \vec{x} \right), \label{eq:gated_activation}
+\end{equation}
+where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise multiplication operator, $\sigma(\cdot)$ is a sigmoid function, $k$ is the layer index, $f$ and $g$ denote filter and gate, respectively, and $W$ is a learnable convolution filter.}
+\end{exampleblock}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Dataset}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/dataset_structure}
+\end{center}
+	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
+\end{figure}
+\end{frame}
 
 \begin{frame}
 \begin{figure}
@@ -600,5 +826,52 @@ Thank you.
 \end{figure}
 \end{frame}
 
+\begin{frame}
+\frametitle{Dataset}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/database_structure_explanation}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature set}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/segmental_features}
+\end{center}
+\caption{Segmental features for a quintphone-wide context.}
+\end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{res/suprasegmental_features}
+\end{center}
+\caption{Non-segmental features.}
+\end{figure}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\includegraphics[width=0.4\textwidth]{res/network_architecture}
+\end{frame}
+
+
+\begin{frame}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.4\textwidth]{res/deep_taylor}
+\end{center}
+	\caption{Computational flow of deep Taylor decomposition. (Adopted from Montavon 2017).}
+\end{figure}
+\begin{block}{}
+The relevance in this framework can be defined as:
+\begin{equation}
+R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
+\end{equation}
+\end{block}
+\end{frame}
 
 \end{document}

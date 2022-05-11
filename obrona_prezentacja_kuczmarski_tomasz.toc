@@ -6,18 +6,17 @@
 \beamer@sectionintoc {3}{Background}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{Intonation research in the world}{9}{0}{3}
 \beamer@subsectionintoc {3}{2}{Intonation research in Poland}{10}{0}{3}
-\beamer@subsectionintoc {3}{3}{Intonation models}{11}{0}{3}
-\beamer@subsectionintoc {3}{4}{Speech synthesis}{12}{0}{3}
-\beamer@subsectionintoc {3}{5}{Wavenet}{14}{0}{3}
-\beamer@subsectionintoc {3}{6}{Neurobiological foundations}{17}{0}{3}
-\beamer@subsectionintoc {3}{7}{Explanatory properties of CNNs}{23}{0}{3}
-\beamer@sectionintoc {4}{Methods}{25}{0}{4}
-\beamer@subsectionintoc {4}{1}{Dataset}{25}{0}{4}
-\beamer@subsectionintoc {4}{2}{Data preprocessing}{29}{0}{4}
-\beamer@subsectionintoc {4}{3}{Feature extraction}{30}{0}{4}
-\beamer@subsectionintoc {4}{4}{Feature set}{31}{0}{4}
-\beamer@subsectionintoc {4}{5}{Model implementation}{32}{0}{4}
-\beamer@sectionintoc {5}{Results}{33}{0}{5}
-\beamer@subsectionintoc {5}{1}{Contribution}{33}{0}{5}
-\beamer@sectionintoc {6}{Hypotheses conclusions}{33}{0}{6}
-\beamer@sectionintoc {7}{Future prospects}{33}{0}{7}
+\beamer@subsectionintoc {3}{3}{Speech synthesis}{11}{0}{3}
+\beamer@subsectionintoc {3}{4}{Neurobiological foundations of CNNs}{13}{0}{3}
+\beamer@subsectionintoc {3}{5}{Explanatory properties of CNNs}{19}{0}{3}
+\beamer@sectionintoc {4}{Methods}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Dataset}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{Data preprocessing}{21}{0}{4}
+\beamer@subsectionintoc {4}{3}{Feature extraction}{22}{0}{4}
+\beamer@subsectionintoc {4}{4}{Model implementation}{23}{0}{4}
+\beamer@subsectionintoc {4}{5}{Inference and relevance analysis}{25}{0}{4}
+\beamer@subsectionintoc {4}{6}{Evaluation}{26}{0}{4}
+\beamer@sectionintoc {5}{Results}{28}{0}{5}
+\beamer@subsectionintoc {5}{1}{Contribution}{40}{0}{5}
+\beamer@subsectionintoc {5}{2}{Hypotheses conclusions}{40}{0}{5}
+\beamer@sectionintoc {6}{Discussion}{40}{0}{6}
