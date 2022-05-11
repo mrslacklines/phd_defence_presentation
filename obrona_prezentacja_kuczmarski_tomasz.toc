@@ -17,6 +17,5 @@
 \beamer@subsectionintoc {4}{5}{Inference and relevance analysis}{25}{0}{4}
 \beamer@subsectionintoc {4}{6}{Evaluation}{26}{0}{4}
 \beamer@sectionintoc {5}{Results}{28}{0}{5}
-\beamer@subsectionintoc {5}{1}{Contribution}{40}{0}{5}
-\beamer@subsectionintoc {5}{2}{Hypotheses conclusions}{40}{0}{5}
-\beamer@sectionintoc {6}{Discussion}{40}{0}{6}
+\beamer@subsectionintoc {5}{1}{Contribution}{56}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{56}{0}{6}

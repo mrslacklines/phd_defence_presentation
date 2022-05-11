@@ -78,7 +78,7 @@
 \frametitle{Intonation}
 \framesubtitle{Definition}
 \vspace{2cm}
-\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has a phonetic aspect, the fundamental frequency ($F0$), and a grammatical (phonological) aspect.''} (F\'ery 2016)
+\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has a phonetic aspect, the fundamental frequency ($F_{0}$), and a grammatical (phonological) aspect.''} (F\'ery 2016)
 \begin{columns}
 \column{0.5\textwidth}
 \column{0.5\textwidth}
@@ -105,8 +105,8 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 \begin{itemize}
 \item[\checkmark] Dualistic gap between phonology and phonetics.
 \item[\checkmark] Unification within a broader metatheory.
-\item[\checkmark] Unknown nature of the mappings between mental categories and continuous contours of $F0$.
-\item[\checkmark] How linguistic features of an utterance influence its $F0$ contours.
+\item[\checkmark] Unknown nature of the mappings between mental categories and continuous contours of $F_{0}$.
+\item[\checkmark] How linguistic features of an utterance influence its $F_{0}$ contours.
 \item[\checkmark] Need for a physicalist (neurobiological) model.
 \item[\checkmark] Modern statstical-parametric speech synthesis provides a framework for experimentation and evaluation of such
 \item[\checkmark] Remarkable properties of biologically-motivated Convolutional Neural Networks.
@@ -116,19 +116,17 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 \end{columns}
 \end{frame}
 
-
-
 \section{Objectives}
 \subsection{Objectives}
 \begin{frame}
 \frametitle{Objectives}
 \begin{enumerate}
-\item<1-2> Build a robust biologically-inspired neural model of the probabilistic mapping between discrete low-level linguistic features of an utterance and its intonation contours ($F0$ values).
+\item<1-2> Build a robust biologically-inspired neural model of the probabilistic mapping between discrete low-level linguistic features of an utterance and its intonation contours ($F_{0}$ values).
 \item<2> Build a state-of-the-art neural source-filter resynthesis framework for Polish read speech.
 \item<2> Deploy the intonation model within the resynthesis framework and measure the perceived naturalness of the output intonation contours, and to
 \item<2> operationalize the results of these measurements as an indicator of the model's robustness.
 \item<2> Develop a method to explain the relevance of the individual input linguistic features for the produced intonation contour.
-\item<1-2> Analyze how specific linguistic features contribute to the $F0$ contours of an utterance.
+\item<1-2> Analyze how specific linguistic features contribute to the $F_{0}$ contours of an utterance.
 \end{enumerate}
 \end{frame}
 
@@ -494,7 +492,7 @@ Training parameters:
 \subsection{Inference and relevance analysis}
 
 \begin{frame}
-\frametitle{F0 inference and feature relevance analysis}
+\frametitle{$F_{0}$ inference and feature relevance analysis}
 \begin{columns}
 \column{0.3\textwidth}
 \begin{figure}
@@ -506,6 +504,7 @@ Training parameters:
 \scriptsize{
 \begin{exampleblock}{}
 {INNvestigate} Neural Networks!\\(Alber et al. 2019)\\
+\vspace{1cm}
 \url{github.com/albermax/innvestigate}
 \vspace{0.2cm}
 \end{exampleblock}
@@ -545,7 +544,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \textbf{Available at:}\\
 \url{fonetyka.cudaniewidy.org/experiment}\\
 \textbf{Code at:}\\
-\url{/github.com/mrslacklines/listening_experiments}
+\url{github.com/mrslacklines/listening_experiments}
 \end{exampleblock}
 }
 \end{columns}
@@ -556,7 +555,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 %5. Wyniki
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq}
@@ -566,7 +565,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq}
@@ -576,17 +575,17 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq}
 \end{center}
-	\caption{Result of $F_0$ prediction for "Gadu\l{}a by\l{}a bardzo niezno\'sna" (\textit{Gabby was very annoying.}).}
+	\caption{Result of $F_{0}$ prediction for "Gadu\l{}a by\l{}a bardzo niezno\'sna" (\textit{Gabby was very annoying.}).}
 \end{figure}
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq}
@@ -596,7 +595,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq}
@@ -606,7 +605,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq}
@@ -616,7 +615,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq}
@@ -626,7 +625,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq}
@@ -636,7 +635,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq}
@@ -646,7 +645,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 \begin{frame}
-\frametitle{F0 inference results}
+\frametitle{$F_{0}$ inference results}
 \begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq}
@@ -716,22 +715,268 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Subjective evaluation results -- ABX}
+%\scriptsize{
+\begin{exampleblock}{$\tilde{\chi}^2$ test}
+\begin{unnumberednullhypothesis}[$H_0$]
+	There are no perceptually significant differences between resynthesized recordings with synthetic and natural $F_0$.
+\end{unnumberednullhypothesis}
+\begin{unnumberedhypothesis}[$H_a$]
+	There are perceptually significant differences between resynthesized recordings with synthetic and natural $F_0$.
+\end{unnumberedhypothesis}
+\end{exampleblock}
+%}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/ABX_individual}
+\end{center}
+\column{0.5\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/ABX_histogram}
+\end{center}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Subjective evaluation results -- ABX}
+\begin{columns}
+\column{0.4\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/ABX_stimulus_type_correct_answers}
+\end{center}
+	\caption{ABX experiment number of correct and incorrect answers in case of natural and synthetic stimuli.}
+\end{figure}
+\column{0.6\textwidth}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.3\textwidth]{res/ABX_stimulus_type_mean_response_time}
+\end{center}
+	\caption{ABX experiment mean response times for synthetic and natural stimuli.}
+\end{figure}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{res/ABX_correlation_matrix}
+\end{center}
+	\caption{ABX experiment parameters correlation matrix.}
+\end{figure}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom}
+\end{center}
+	\caption{Fundamental frequency predictions for "S\l{}ysza\l{}am odg\l{}os zbli\.zaj\k{a}cego si\k{e} poci\k{a}gu" (\textit{I heard the sound of an approaching train}) aligned with feature relevance heatmap.}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.2\textwidth}
+\begin{figure}
+	\caption{Fundamental frequency predictions for "S\l{}ysza\l{}am odg\l{}os zbli\.zaj\k{a}cego si\k{e} poci\k{a}gu" (\textit{I heard the sound of an approaching train}) aligned with relevance heatmap for general feature groups.}
+\end{figure}
+\column{0.8\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.2\textwidth}
+\begin{figure}
+	\caption{Fundamental frequency predictions for "Waluta jeny - w j\k{e}zyku greckim - jest cenna" (\textit{The currency yen, in Greek, is valuable}) aligned with relevance heatmap for general feature groups.}
+\end{figure}
+\column{0.8\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Fundamental frequency predictions for "Musisz dojrze\'c do tego, by to zrozumie\'c" (\textit{You have to grow up to understand it}) aligned with relevance heatmap for features grouped by the level of utterance.}
+\end{figure}
+\column{0.7\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Fundamental frequency predictions for "Przep\l{}yne\l{}am na grzbiecie siedemna\'scie d\l{}ugo\'sci basenu" (\textit{I swam seventeen pool lengths on my back.}) aligned with relevance heatmap for features grouped by the type of relation.}
+\end{figure}
+\column{0.7\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135}
+\end{center}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Fundamental frequency predictions for "Ciocia pracuje w urz\k{e}dzie pa\'nstwowym" (\textit{Aunt works in a government office}) aligned with relevance heatmap for features grouped by the type of relation and the level of utterance.}
+\end{figure}
+\column{0.7\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/linguistic_levels_and_relation_types_amu_pl_ilo_baza_2006a_zbitki_a0139}
+\end{center}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{res/cumulative_relevance.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Regular mean relevance per feature group. The $y$-axis scaling due to the high relevance of V/UV renders comparatively flat plots for other features.}
+\end{figure}
+\column{0.55\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories}
+\end{center}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Regular mean relevance per feature group with the most relevant feature (V/UV) excluded.}
+\end{figure}
+\column{0.55\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories_-_no_vuv}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Regular mean relevance per feature group with the most relevant feature (V/UV) excluded. Medium granularity of feature groups.}
+\end{figure}
+\column{0.7\textwidth}
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{res/feature_relevance_ranking_-_mean_(sum)_-_detailed_feature_categories_-_no_vuv}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{figure}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(sum)_-_all_feature_categories_-_no_vuv}
+\end{center}
+	\caption{Regular mean relevance per feature group with the most relevant feature (V/UV) excluded. High granularity of feature groups.}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Absolute mean relevance per feature group with the most relevant feature (V/UV) excluded.}
+\end{figure}
+\column{0.55\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(absolute_sum)_-_general_feature_categories_-_no_vuv}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Positive relevance-only mean per feature group with the most relevant feature (V/UV) excluded.}
+\end{figure}
+\column{0.55\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(positive_only_sum)_-_general_feature_categories_-_no_vuv}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Feature relevance analysis results}
+\begin{columns}
+\column{0.3\textwidth}
+\begin{figure}
+	\caption{Negative relevance-only mean per feature group with the most relevant feature (V/UV) excluded.}
+\end{figure}
+\column{0.55\textwidth}
+\begin{center}
+  \includegraphics[width=\textwidth]{res/feature_relevance_ranking_-_mean_(negative_only_sum)_-_general_feature_categories_-_no_vuv}
+\end{center}
+\end{columns}
+\end{frame}
+
 \subsection{Contribution}
 
-\subsection{Hypotheses conclusions}
-%6. Czy tezy zostaly udowodnione
 
 
+\section{Conclusions}
 
-\section{Discussion}
 %7. Aspekty przyszlosciowe i praktyczne
 
 \begin{frame}
-
 \begin{center}
 Thank you.
 \end{center}
 \end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -833,7 +1078,6 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \end{center}
 \end{frame}
 
-
 \begin{frame}
 \frametitle{Feature set}
 \begin{columns}
@@ -873,5 +1117,6 @@ R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 \end{equation}
 \end{block}
 \end{frame}
+
 
 \end{document}
