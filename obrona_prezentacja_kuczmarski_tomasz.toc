@@ -2,20 +2,25 @@
 \beamer@sectionintoc {2}{Objectives}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{Objectives}{5}{0}{2}
 \beamer@subsectionintoc {2}{2}{Hypotheses}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Contributory Methodological Hypothesis}{8}{0}{2}
-\beamer@sectionintoc {3}{Background}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{Intonation research in the world}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{Intonation research in Poland}{10}{0}{3}
-\beamer@subsectionintoc {3}{3}{Speech synthesis}{11}{0}{3}
-\beamer@subsectionintoc {3}{4}{Neurobiological foundations of CNNs}{13}{0}{3}
-\beamer@subsectionintoc {3}{5}{Explanatory properties of CNNs}{19}{0}{3}
-\beamer@sectionintoc {4}{Methods}{20}{0}{4}
-\beamer@subsectionintoc {4}{1}{Dataset}{20}{0}{4}
-\beamer@subsectionintoc {4}{2}{Data preprocessing}{21}{0}{4}
-\beamer@subsectionintoc {4}{3}{Feature extraction}{22}{0}{4}
-\beamer@subsectionintoc {4}{4}{Model implementation}{23}{0}{4}
-\beamer@subsectionintoc {4}{5}{Inference and relevance analysis}{25}{0}{4}
-\beamer@subsectionintoc {4}{6}{Evaluation}{26}{0}{4}
-\beamer@sectionintoc {5}{Results}{28}{0}{5}
-\beamer@subsectionintoc {5}{1}{Contribution}{56}{0}{5}
-\beamer@sectionintoc {6}{Conclusions}{56}{0}{6}
+\beamer@sectionintoc {3}{Background}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Intonation research}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Intonation research in Poland}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Speech synthesis}{10}{0}{3}
+\beamer@subsectionintoc {3}{4}{Neurobiological foundations of CNNs}{12}{0}{3}
+\beamer@subsectionintoc {3}{5}{Explanatory properties of CNNs}{18}{0}{3}
+\beamer@sectionintoc {4}{Methods}{19}{0}{4}
+\beamer@subsectionintoc {4}{1}{Dataset}{19}{0}{4}
+\beamer@subsectionintoc {4}{2}{Data preprocessing}{20}{0}{4}
+\beamer@subsectionintoc {4}{3}{Feature extraction}{21}{0}{4}
+\beamer@subsectionintoc {4}{4}{Model implementation}{22}{0}{4}
+\beamer@subsectionintoc {4}{5}{Inference and relevance analysis}{24}{0}{4}
+\beamer@subsectionintoc {4}{6}{Evaluation}{25}{0}{4}
+\beamer@sectionintoc {5}{Results}{27}{0}{5}
+\beamer@subsectionintoc {5}{1}{$F_{0}$ inference results}{27}{0}{5}
+\beamer@subsectionintoc {5}{2}{Objective evaluation results}{37}{0}{5}
+\beamer@subsectionintoc {5}{3}{Subjective evaluation results}{38}{0}{5}
+\beamer@subsectionintoc {5}{4}{Feature relevance analysis results}{41}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{55}{0}{6}
+\beamer@subsectionintoc {6}{1}{Hypotheses conclusions}{55}{0}{6}
+\beamer@subsectionintoc {6}{2}{Contribution}{56}{0}{6}
+\beamer@subsectionintoc {6}{3}{Future plans}{57}{0}{6}

@@ -2,20 +2,25 @@
 \BOOKMARK [2][]{Outline0.2}{Objectives}{}% 2
 \BOOKMARK [3][]{Outline0.2.1.5}{Objectives}{Outline0.2}% 3
 \BOOKMARK [3][]{Outline0.2.2.7}{Hypotheses}{Outline0.2}% 4
-\BOOKMARK [3][]{Outline0.2.3.8}{Contributory Methodological Hypothesis}{Outline0.2}% 5
-\BOOKMARK [2][]{Outline0.3}{Background}{}% 6
-\BOOKMARK [3][]{Outline0.3.1.9}{Intonation research in the world}{Outline0.3}% 7
-\BOOKMARK [3][]{Outline0.3.2.10}{Intonation research in Poland}{Outline0.3}% 8
-\BOOKMARK [3][]{Outline0.3.3.11}{Speech synthesis}{Outline0.3}% 9
-\BOOKMARK [3][]{Outline0.3.4.13}{Neurobiological foundations of CNNs}{Outline0.3}% 10
-\BOOKMARK [3][]{Outline0.3.5.19}{Explanatory properties of CNNs}{Outline0.3}% 11
-\BOOKMARK [2][]{Outline0.4}{Methods}{}% 12
-\BOOKMARK [3][]{Outline0.4.1.20}{Dataset}{Outline0.4}% 13
-\BOOKMARK [3][]{Outline0.4.2.21}{Data preprocessing}{Outline0.4}% 14
-\BOOKMARK [3][]{Outline0.4.3.22}{Feature extraction}{Outline0.4}% 15
-\BOOKMARK [3][]{Outline0.4.4.23}{Model implementation}{Outline0.4}% 16
-\BOOKMARK [3][]{Outline0.4.5.25}{Inference and relevance analysis}{Outline0.4}% 17
-\BOOKMARK [3][]{Outline0.4.6.26}{Evaluation}{Outline0.4}% 18
-\BOOKMARK [2][]{Outline0.5}{Results}{}% 19
-\BOOKMARK [3][]{Outline0.5.1.56}{Contribution}{Outline0.5}% 20
-\BOOKMARK [2][]{Outline0.6}{Conclusions}{}% 21
+\BOOKMARK [2][]{Outline0.3}{Background}{}% 5
+\BOOKMARK [3][]{Outline0.3.1.8}{Intonation research}{Outline0.3}% 6
+\BOOKMARK [3][]{Outline0.3.2.9}{Intonation research in Poland}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.3.10}{Speech synthesis}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.4.12}{Neurobiological foundations of CNNs}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.5.18}{Explanatory properties of CNNs}{Outline0.3}% 10
+\BOOKMARK [2][]{Outline0.4}{Methods}{}% 11
+\BOOKMARK [3][]{Outline0.4.1.19}{Dataset}{Outline0.4}% 12
+\BOOKMARK [3][]{Outline0.4.2.20}{Data preprocessing}{Outline0.4}% 13
+\BOOKMARK [3][]{Outline0.4.3.21}{Feature extraction}{Outline0.4}% 14
+\BOOKMARK [3][]{Outline0.4.4.22}{Model implementation}{Outline0.4}% 15
+\BOOKMARK [3][]{Outline0.4.5.24}{Inference and relevance analysis}{Outline0.4}% 16
+\BOOKMARK [3][]{Outline0.4.6.25}{Evaluation}{Outline0.4}% 17
+\BOOKMARK [2][]{Outline0.5}{Results}{}% 18
+\BOOKMARK [3][]{Outline0.5.1.27}{F0 inference results}{Outline0.5}% 19
+\BOOKMARK [3][]{Outline0.5.2.37}{Objective evaluation results}{Outline0.5}% 20
+\BOOKMARK [3][]{Outline0.5.3.38}{Subjective evaluation results}{Outline0.5}% 21
+\BOOKMARK [3][]{Outline0.5.4.41}{Feature relevance analysis results}{Outline0.5}% 22
+\BOOKMARK [2][]{Outline0.6}{Conclusions}{}% 23
+\BOOKMARK [3][]{Outline0.6.1.55}{Hypotheses conclusions}{Outline0.6}% 24
+\BOOKMARK [3][]{Outline0.6.2.56}{Contribution}{Outline0.6}% 25
+\BOOKMARK [3][]{Outline0.6.3.57}{Future plans}{Outline0.6}% 26

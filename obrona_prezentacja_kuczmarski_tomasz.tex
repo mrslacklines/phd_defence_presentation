@@ -33,11 +33,15 @@
         {}  % Theorem head spec (can be left empty, meaning ‘normal’)
 \theoremstyle{mytheoremstyle}
 
-
-\newtheorem{hypothesis}{Hypothesis}
+%\newtheorem{innercustomthm}{Theorem}
+\newtheorem{innerhypothesis}{Hypothesis}
 \newtheorem*{unnumberedhypothesis}{Hypothesis}
 \newtheorem*{unnumberednullhypothesis}{Null Hypothesis}
 \newtheorem{notion}{Notion}
+
+\newenvironment{hypothesis}[1]
+  {\renewcommand\theinnerhypothesis{#1}\innerhypothesis}
+  {\endinnerhypothesis}
 
 %\usepackage{polski}
 %\usepackage[cp1250]{inputenc}
@@ -132,25 +136,17 @@ definitions,i.e., not a priori programmatic definitions, but a posteriori statem
 
 \subsection{Hypotheses}
 \begin{frame}
-\frametitle{Main Hypotheses}
+\frametitle{Hypotheses}
 \begin{tcolorbox}
-\begin{hypothesis}[] The continous $F_0$ contours of an utterance emerge from its discrete linguistic features through a series of successive probabilistic mappings into intermediate latent represenentations.
+\begin{hypothesis}{1} The continous $F_0$ contours of an utterance emerge from its discrete linguistic features through a series of successive probabilistic mappings into intermediate latent represenentations.
 \end{hypothesis}
-\begin{hypothesis}
-The biologically-inspired Deep Temporal Convolutional Network can be an effective model of these mappings and hence of Polish neutral read speech intonation in the context of statistical-parametric speech synthesis. \label{secondary:a}
+\begin{hypothesis}{2}
+The biologically-inspired Deep Temporal Convolutional Network can be an effective model of these mappings and hence of Polish neutral read speech intonation in the context of statistical-parametric speech synthesis. 
 \end{hypothesis}
-\begin{hypothesis}
-The set of shallow linguistic features used in this thesis provides information which is sufficient for synthesis of natural sounding intonation in the context of statistical-parametric speech synthesis. \label{secondary:b}
+\begin{hypothesis}{3}
+The set of shallow linguistic features used in this thesis provides information which is sufficient for synthesis of natural sounding intonation in the context of statistical-parametric speech synthesis. 
 \end{hypothesis}
-\end{tcolorbox}
-\end{frame}
-
-\subsection{Contributory Methodological Hypothesis}
-\begin{frame}
-\frametitle{Contributory Methodological Hypothesis}
-\begin{tcolorbox}
-\begin{hypothesis}[contributory methodological]
-\label{contributory}
+\begin{hypothesis}{4}
 A Deep Temporal Convolutional Network can become an explanatory scientific model of mappings between linguistics features and the intonation of an utterance.
 \end{hypothesis}
 \end{tcolorbox}
@@ -166,7 +162,7 @@ A Deep Temporal Convolutional Network can become an explanatory scientific model
 
 % NOTES: Acoustic correlates rather than phonetic models
 
-\subsection{Intonation research in the world}
+\subsection{Intonation research}
 \begin{frame}
 \frametitle{Background}
 \includegraphics[width=\textwidth]{res/background.png}
@@ -208,9 +204,6 @@ Wavenet belongs to a class of models known as
 \textbf{Convolutional Neural Networks} (CNNs)
 which are used mainly in the area of of image recognition where they excel.}
 \end{exampleblock}
-\begin{center}
-  \includegraphics[width=0.5cm]{res/speaker_icon.png}
-\end{center}
 \column{0.6\textwidth}
 \includegraphics[width=\textwidth]{res/tcn.png}
 \end{columns}
@@ -554,6 +547,8 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \section{Results}
 %5. Wyniki
 
+\subsection{$F_{0}$ inference results}
+
 \begin{frame}
 \frametitle{$F_{0}$ inference results}
 \begin{figure}
@@ -654,31 +649,39 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{figure}
 \end{frame}
 
-%\begin{frame}
-%\frametitle{Objective evaluation results}
-%\begin{columns}
-%\column{0.5\textwidth}
-%\vspace{1.3cm}
-%\begin{figure}
-%\begin{center}
-%  \includegraphics[width=0.9\textwidth]{res/mse}
-%\end{center}
-%	\caption{Mean MSE scores in the test dataset for $\log F_0$ predictions.}
-%\end{figure}
-%\column{0.5\textwidth}
-%\includegraphics[width=0.9\textwidth]{res/mse_formula}
-%\end{columns}
-%\end{frame}
+\subsection{Objective evaluation results}
 
+\begin{frame}
+\frametitle{Objective evaluation results}
+\begin{center}
+  \includegraphics[width=0.7\textwidth]{res/mse}
+\end{center}
+\begin{center}
+  \includegraphics[width=0.5\textwidth]{res/mse_form}
+\end{center}
+\end{frame}
+
+
+\subsection{Subjective evaluation results}
 
 \begin{frame}
 \frametitle{Subjective evaluation results - MOS}
+\begin{columns}
+\column{0.5\textwidth}
 \begin{figure}
 \begin{center}
-  \includegraphics[width=0.35\textwidth]{res/MOS-answer}
+  \includegraphics[width=0.7\textwidth]{res/MOS-answer}
 \end{center}
 	\caption{Mean Opinion Score-based evaluation results.}
 \end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{res/MOS_correlation_matrix}
+\end{center}
+\caption{Mean Opinion Score-based evaluation parameters correlation matrix.}
+\end{figure}
+\end{columns}
 \begin{columns}
 \column{0.3\textwidth}
 \begin{figure}
@@ -702,16 +705,6 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \caption{Mean Opinion Score-based evaluation total numbers of specific scores for synthetic stimuli.}
 \end{figure}
 \end{columns}
-\end{frame}
-
-\begin{frame}
-\frametitle{Subjective evaluation results - MOS}
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{res/MOS_correlation_matrix}
-\end{center}
-\caption{Mean Opinion Score-based evaluation parameters correlation matrix.}
-\end{figure}
 \end{frame}
 
 
@@ -766,6 +759,8 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{columns}
 \end{frame}
 
+
+\subsection{Feature relevance analysis results}
 
 \begin{frame}
 \frametitle{Feature relevance analysis results}
@@ -952,17 +947,108 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
 \end{columns}
 \end{frame}
 
-\subsection{Contribution}
-
-
 
 \section{Conclusions}
 
+\subsection{Hypotheses conclusions}
+
+\begin{frame}
+\frametitle{Main Hypotheses}
+\scriptsize{
+\begin{columns}
+\column{0.5\textwidth}
+\begin{tcolorbox}
+\begin{hypothesis}{1} The continous $F_0$ contours of an utterance emerge from its discrete linguistic features through a series of successive probabilistic mappings into intermediate latent represenentations.
+\end{hypothesis}
+\begin{hypothesis}{2}
+The biologically-inspired Deep Temporal Convolutional Network can be an effective model of these mappings and hence of Polish neutral read speech intonation in the context of statistical-parametric speech synthesis. 
+\end{hypothesis}
+\begin{hypothesis}{3}
+The set of shallow linguistic features used in this thesis provides information which is sufficient for synthesis of natural sounding intonation in the context of statistical-parametric speech synthesis. 
+\end{hypothesis}
+\begin{hypothesis}{4}
+A Deep Temporal Convolutional Network can become an explanatory scientific model of mappings between linguistics features and the intonation of an utterance.
+\end{hypothesis}
+\end{tcolorbox}
+\column{0.5\textwidth}
+\begin{exampleblock}{}
+\begin{itemize}
+\item[\checkmark] Generalized neural model of the mappings based on auditory cortical processing,
+\item[\checkmark] Linguistically agnostic,
+\item[\checkmark] Mapping model spontanously converges towards a set of most relevant linguistic features as might be anticipated based on generally accepted linguistic theory (eg. syllabic features),
+\item[\checkmark] Functional performance and naturalness of the produced $F_{0}$ contours as demonstrated through the subjective evaluation procedure,
+\item[\checkmark] Substantial size of results produced based on the relevance analysis of model output.
+\end{itemize}
+\end{exampleblock}
+\begin{block}{Results}
+The complete results in the form of CSV files, charts, listings, etc. are available in the code repository at:\\
+\url{github.com/mrslacklines/intonation_synthesis}
+\end{block}
+\end{columns}
+}
+\end{frame}
+
+\subsection{Contribution}
+
+\begin{frame}
+\frametitle{Contribution and possible applications}
+\scriptsize{
+\begin{exampleblock}{}
+\begin{itemize}
+\item[\checkmark] Successful application of LRP explainability algorithm to a temporal signal modelling modelling (speech),
+\item[\checkmark] Evaluation of a biologically-motivated model of the mappings between abstract linguistic categories and the concrete contours of $F_{0}$,
+\item[\checkmark] Evidence for the effectiveness of Deep Neural Networks as explanatory scientific models and contribution to their popularization in linguistic research,
+\item[\checkmark] Application in computational neuroscience research,
+\item[\checkmark] Modest step towards the unification of theories of intonation,
+\item[\checkmark] Mathodology for determining the most relevant features that could help optimize the implementation of practical DNN-based models and the preparation of training data sets,
+\item[\checkmark] Evidence that could support or undermine some of the current assumptions in phonological grammars of intonation,
+\item[\checkmark] Complete open-source implementation available in public repositories including quickstart instructions.
+\end{itemize}
+\end{exampleblock}
+}
+\begin{columns}
+\column{0.4\textwidth}
+\column{0.6\textwidth}
+\scriptsize{
+\begin{exampleblock}{Code repository}
+\url{https://github.com/mrslacklines/intonation_synthesis}
+\end{exampleblock}
+}
+\end{columns}
+\end{frame}
+
+\subsection{Future plans}
+
+\begin{frame}
+\frametitle{Improvements and future plans}
+\scriptsize{
+\begin{exampleblock}{}
+\begin{itemize}
+\item[\checkmark] Size, coverage and quality of the dataset,
+\item[\checkmark] Better data work, exploratory analysis (e.g. feature correlations)
+\item[\checkmark] Better objective metric,
+\item[\checkmark] Comparison of multiple model instances,
+\item[\checkmark] Hyperparameter optimization,
+\item[\checkmark] Account for the influence of the biomechanics of the articulatory tract on the final
+contour of the intonation,
+\item[\checkmark] Measure relevance given the accuracy of the prediciton,
+\item[\checkmark] Redesign the model based on a single coherent neural theory and provide a better justification of the model architecture,
+\item[\checkmark] Run experiments on features from other levels of language (such as semantics, syntax, pragmatics) or for expressive speech,
+\item[\checkmark] Test other variants of the LRP algorithm,
+\item[\checkmark] Verify the relevance of features with an ablation study,
+\item[\checkmark] Design better subjective evaluation experiment,
+\item[\checkmark] Analyze the intermediate latent features extracted by the deep convolutional filters.
+\end{itemize}
+\end{exampleblock}
+}
+\end{frame}
 %7. Aspekty przyszlosciowe i praktyczne
 
 \begin{frame}
 \begin{center}
-Thank you.
+\includegraphics[width=0.2\textwidth]{res/cnn_gray}
+\vspace{1cm}
+Thank you!
 \end{center}
 \end{frame}
 
@@ -991,11 +1077,6 @@ Thank you.
 % Additional slides
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\begin{frame}
-\frametitle{Intonation models}
-\includegraphics[width=\textwidth]{res/inotnation_models_venn.png}
-\end{frame}
 
 \begin{frame}
 \frametitle{Speech synthesis - Wavenet}
@@ -1027,7 +1108,7 @@ p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\righ
 \begin{exampleblock}{}
 \tiny{Gated convolutional layers:
 \begin{equation}
-\vec{z} = \tanh \left(W_{f, k} \ast \vec{x}\right) \odot \sigma \left(W_{g, k} \ast \vec{x} \right), \label{eq:gated_activation}
+\vec{z} = \tanh \left(W_{f, k} \ast \vec{x}\right) \odot \sigma \left(W_{g, k} \ast \vec{x} \right), 
 \end{equation}
 where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise multiplication operator, $\sigma(\cdot)$ is a sigmoid function, $k$ is the layer index, $f$ and $g$ denote filter and gate, respectively, and $W$ is a learnable convolution filter.}
 \end{exampleblock}
@@ -1071,12 +1152,6 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \end{figure}
 \end{frame}
 
-\begin{frame}
-\frametitle{Dataset}
-\begin{center}
-  \includegraphics[width=\textwidth]{res/database_structure_explanation}
-\end{center}
-\end{frame}
 
 \begin{frame}
 \frametitle{Feature set}
