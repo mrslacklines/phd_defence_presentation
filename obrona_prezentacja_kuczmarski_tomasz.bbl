@@ -1,0 +1,1096 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{alber2019}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=c7f51f4349a74237966109fa15718a4d}{%
+           family={Alber},
+           familyi={A\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7623274e86daf16f369161c4ae78f7}{%
+           family={Lapuschkin},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7c44a67503943d786328046fea142b0}{%
+           family={Seegerer},
+           familyi={S\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e2898d8929f265cc328332d7ecdf895}{%
+           family={H{{ä}}gele},
+           familyi={H\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81311ad4426e968e8d85d88fd54a0e58}{%
+           family={Sch{{ü}}tt},
+           familyi={S\bibinitperiod},
+           given={Kristof\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0889b25b37f68a2d73747dc5dfcb8a0}{%
+           family={Montavon},
+           familyi={M\bibinitperiod},
+           given={Gr{{é}}goire},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f49b6382ab4ca917a2aa2249f875f79}{%
+           family={Samek},
+           familyi={S\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f1b6144a45b1967e989e74552e37ada}{%
+           family={M{{ü}}ller},
+           familyi={M\bibinitperiod},
+           given={Klaus-Robert},
+           giveni={K\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5f4caac6e648673c3d098b629a49295}{%
+           family={D{{ä}}hne},
+           familyi={D\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f7e0a5910ade4b14a74f3a61e46f917}{%
+           family={Kindermans},
+           familyi={K\bibinitperiod},
+           given={Pieter-Jan},
+           giveni={P\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3108a06a943b7f2b14370ceb935f1a05}
+      \strng{fullhash}{61ad5b6ef9d3039e31a44e0597fba0cb}
+      \strng{bibnamehash}{3108a06a943b7f2b14370ceb935f1a05}
+      \strng{authorbibnamehash}{3108a06a943b7f2b14370ceb935f1a05}
+      \strng{authornamehash}{3108a06a943b7f2b14370ceb935f1a05}
+      \strng{authorfullhash}{61ad5b6ef9d3039e31a44e0597fba0cb}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{93}
+      \field{title}{{iNNvestigate} neural networks!}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v20/18-540.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v20/18-540.html
+      \endverb
+    \endentry
+    \entry{demenko2010a}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=2b98c1557e02be1196d67d63a92527cc}{%
+           family={Demenko},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=c34452d6e2ec1ed39e1408c0bc054497}{%
+           family={M{ö}bius},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=5b255af12129ae999bd755f96746ed4a}{%
+           family={Klessa},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{d61ccd9a261058a9c2c96149ee09f243}
+      \strng{fullhash}{d61ccd9a261058a9c2c96149ee09f243}
+      \strng{bibnamehash}{d61ccd9a261058a9c2c96149ee09f243}
+      \strng{authorbibnamehash}{d61ccd9a261058a9c2c96149ee09f243}
+      \strng{authornamehash}{d61ccd9a261058a9c2c96149ee09f243}
+      \strng{authorfullhash}{d61ccd9a261058a9c2c96149ee09f243}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the Polish Academy of Sciences. Technical Sciences}
+      \field{number}{3}
+      \field{title}{Implementation of {Polish} speech synthesis for the {BOSS} system}
+      \field{volume}{58}
+      \field{year}{2010}
+      \field{pages}{371\bibrangedash 376}
+      \range{pages}{6}
+    \endentry
+    \entry{demenko1999}{book}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=c0dd318438a4f66230460d1aadba514c}{%
+           family={Demenko},
+           familyi={D\bibinitperiod},
+           given={Gra{ż}yna},
+           giveni={G\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Wydawnictwo Naukowe UAM}%
+      }
+      \strng{namehash}{c0dd318438a4f66230460d1aadba514c}
+      \strng{fullhash}{c0dd318438a4f66230460d1aadba514c}
+      \strng{bibnamehash}{c0dd318438a4f66230460d1aadba514c}
+      \strng{authorbibnamehash}{c0dd318438a4f66230460d1aadba514c}
+      \strng{authornamehash}{c0dd318438a4f66230460d1aadba514c}
+      \strng{authorfullhash}{c0dd318438a4f66230460d1aadba514c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analiza cech suprasegmentalnych j{ę}zyka polskiego na potrzeby technologii mowy}
+      \field{year}{1999}
+    \endentry
+    \entry{demenko2008}{inproceedings}{}
+      \name{author}{6}{ul=2}{%
+        {{un=2,uniquepart=given,hash=c0dd318438a4f66230460d1aadba514c}{%
+           family={Demenko},
+           familyi={D\bibinitperiod},
+           given={Gra{ż}yna},
+           giveni={G\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=7f24e0763da9c986278de031939175fa}{%
+           family={Bachan},
+           familyi={B\bibinitperiod},
+           given={Jolanta},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab4ea3adb6f3d3051da1a8179edae570}{%
+           family={M{ö}bius},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df5e95141257c3c5b3325c1de93aba4}{%
+           family={Klessa},
+           familyi={K\bibinitperiod},
+           given={Katarzyna},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45e2cc1f3171f91766f34eb8dc2909cd}{%
+           family={Szyma{ń}ski},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7012321c5e8d76bc2813310e396469b7}{%
+           family={Grocholewski},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d1d55a17b2b11b0f8df4d27a1bc42f7}
+      \strng{fullhash}{98825df52b1e9c50c9fdf99aece75bf9}
+      \strng{bibnamehash}{1d1d55a17b2b11b0f8df4d27a1bc42f7}
+      \strng{authorbibnamehash}{1d1d55a17b2b11b0f8df4d27a1bc42f7}
+      \strng{authornamehash}{1d1d55a17b2b11b0f8df4d27a1bc42f7}
+      \strng{authorfullhash}{98825df52b1e9c50c9fdf99aece75bf9}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ninth {Annual Conference of the International Speech Communication Association}}
+      \field{title}{Development and evaluation of {Polish} speech corpus for unit selection speech synthesis systems}
+      \field{year}{2008}
+    \endentry
+    \entry{demenko2010b}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=2,uniquepart=given,hash=c0dd318438a4f66230460d1aadba514c}{%
+           family={Demenko},
+           familyi={D\bibinitperiod},
+           given={Gra{ż}yna},
+           giveni={G\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=0df5e95141257c3c5b3325c1de93aba4}{%
+           family={Klessa},
+           familyi={K\bibinitperiod},
+           given={Katarzyna},
+           giveni={K\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=12229897ee389997d0b7c37247dbb0e3}{%
+           family={Szyma{ń}ski},
+           familyi={S\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6a8200787051a34d2daded69ac7b0ff}{%
+           family={Breuer},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d02dc575d8420a7d3067e90c93ed32}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ad00e39082a6bd1284792a8d09ed891f}
+      \strng{fullhash}{9a3fa9f94c888a543329d7dca85ec9d3}
+      \strng{bibnamehash}{ad00e39082a6bd1284792a8d09ed891f}
+      \strng{authorbibnamehash}{ad00e39082a6bd1284792a8d09ed891f}
+      \strng{authornamehash}{ad00e39082a6bd1284792a8d09ed891f}
+      \strng{authorfullhash}{9a3fa9f94c888a543329d7dca85ec9d3}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of speech technology}
+      \field{number}{2}
+      \field{title}{Polish unit selection speech synthesis with {BOSS}: extensions and speech corpora}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{pages}{85\bibrangedash 99}
+      \range{pages}{15}
+    \endentry
+    \entry{demenko2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=c0dd318438a4f66230460d1aadba514c}{%
+           family={Demenko},
+           familyi={D\bibinitperiod},
+           given={Gra{ż}yna},
+           giveni={G\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=0c6a0e8039303352121b5565d06ca8fd}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Agnieszka},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6901a17e612afa36d395f751f94a36e}
+      \strng{fullhash}{a6901a17e612afa36d395f751f94a36e}
+      \strng{bibnamehash}{a6901a17e612afa36d395f751f94a36e}
+      \strng{authorbibnamehash}{a6901a17e612afa36d395f751f94a36e}
+      \strng{authornamehash}{a6901a17e612afa36d395f751f94a36e}
+      \strng{authorfullhash}{a6901a17e612afa36d395f751f94a36e}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of acoustics}
+      \field{number}{1}
+      \field{title}{Prosody annotation for unit selection {TTS} synthesis}
+      \field{volume}{32}
+      \field{year}{2007}
+      \field{pages}{25\bibrangedash 40}
+      \range{pages}{16}
+    \endentry
+    \entry{fery2016}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1c7c021839410c6becf05971c12b3aa2}{%
+           family={Féry},
+           familyi={F\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1c7c021839410c6becf05971c12b3aa2}
+      \strng{fullhash}{1c7c021839410c6becf05971c12b3aa2}
+      \strng{bibnamehash}{1c7c021839410c6becf05971c12b3aa2}
+      \strng{authorbibnamehash}{1c7c021839410c6becf05971c12b3aa2}
+      \strng{authornamehash}{1c7c021839410c6becf05971c12b3aa2}
+      \strng{authorfullhash}{1c7c021839410c6becf05971c12b3aa2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Key Topics in Phonology}
+      \field{title}{Intonation and Prosodic Structure}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1017/9781139022064
+      \endverb
+    \endentry
+    \entry{gibbon1976}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a048e1d2750d6b07e2855653675365a5}{%
+           family={Gibbon},
+           familyi={G\bibinitperiod},
+           given={Dafydd},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Herbert Lang Bern}%
+      }
+      \strng{namehash}{a048e1d2750d6b07e2855653675365a5}
+      \strng{fullhash}{a048e1d2750d6b07e2855653675365a5}
+      \strng{bibnamehash}{a048e1d2750d6b07e2855653675365a5}
+      \strng{authorbibnamehash}{a048e1d2750d6b07e2855653675365a5}
+      \strng{authornamehash}{a048e1d2750d6b07e2855653675365a5}
+      \strng{authorfullhash}{a048e1d2750d6b07e2855653675365a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Perspectives of intonation analysis}
+      \field{year}{1976}
+      \true{nocite}
+    \endentry
+    \entry{hubel1959}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd78b0965a1fbcb42a037804e3d7772e}{%
+           family={Hubel},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56b1a28b981938e77754702e3a0a19a1}{%
+           family={Wiesel},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{fullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{bibnamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authorbibnamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authornamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authorfullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physiology}
+      \field{number}{3}
+      \field{title}{Receptive fields of single neurones in the cat's striate cortex}
+      \field{volume}{148}
+      \field{year}{1959}
+      \field{pages}{574\bibrangedash 591}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1113/jphysiol.1959.sp006308
+      \endverb
+      \verb{eprint}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1959.sp006308
+      \endverb
+      \verb{urlraw}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1959.sp006308
+      \endverb
+      \verb{url}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1959.sp006308
+      \endverb
+    \endentry
+    \entry{hubel1962}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd78b0965a1fbcb42a037804e3d7772e}{%
+           family={Hubel},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56b1a28b981938e77754702e3a0a19a1}{%
+           family={Wiesel},
+           familyi={W\bibinitperiod},
+           given={T.\bibnamedelimi N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{fullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{bibnamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authorbibnamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authornamehash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \strng{authorfullhash}{c22fdea310ab2c8e0f75a9a65abaa6ff}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physiology}
+      \field{number}{1}
+      \field{title}{Receptive fields, binocular interaction and functional architecture in the cat's visual cortex}
+      \field{volume}{160}
+      \field{year}{1962}
+      \field{pages}{106\bibrangedash 154}
+      \range{pages}{49}
+      \verb{doi}
+      \verb https://doi.org/10.1113/jphysiol.1962.sp006837
+      \endverb
+      \verb{eprint}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/pdf/10.1113/jphysiol.1962.sp006837
+      \endverb
+      \verb{urlraw}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1962.sp006837
+      \endverb
+      \verb{url}
+      \verb https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/jphysiol.1962.sp006837
+      \endverb
+    \endentry
+    \entry{wiki:kernel}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1cbe151a5f5037df031330b02999910d}{%
+           family={{Kernel (image processing)}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cbe151a5f5037df031330b02999910d}
+      \strng{fullhash}{1cbe151a5f5037df031330b02999910d}
+      \strng{bibnamehash}{1cbe151a5f5037df031330b02999910d}
+      \strng{authorbibnamehash}{1cbe151a5f5037df031330b02999910d}
+      \strng{authornamehash}{1cbe151a5f5037df031330b02999910d}
+      \strng{authorfullhash}{1cbe151a5f5037df031330b02999910d}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 23.01.2021]}
+      \field{title}{Kernel (image processing) --- {W}ikipedia, The Free Encyclopedia}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Kernel_(image_processing)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Kernel_(image_processing)
+      \endverb
+    \endentry
+    \entry{lecun1989}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=9ae8dc3a930d73e11e1b22a9ef065055}{%
+           family={{LeCun}},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7eacb03f7d28612977f50d8cb1be0bad}{%
+           family={Boser},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ff32262125f2230f4fdc214030486c4}{%
+           family={Denker},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d66cfa216fa640e918783d1c120463c}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c36863cdb1999c03faa3c243dcda1a3}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebda9ed808cef915758a63247dd83737}{%
+           family={Hubbard},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1aa31ea5533302c18283f093ceec347}{%
+           family={Jackel},
+           familyi={J\bibinitperiod},
+           given={L.\bibnamedelimi D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8a87a12538dbdb246c3bc01b5a3dcc2}
+      \strng{fullhash}{ffc15443f8a7fdf7e6f50273527fa0b5}
+      \strng{bibnamehash}{a8a87a12538dbdb246c3bc01b5a3dcc2}
+      \strng{authorbibnamehash}{a8a87a12538dbdb246c3bc01b5a3dcc2}
+      \strng{authornamehash}{a8a87a12538dbdb246c3bc01b5a3dcc2}
+      \strng{authorfullhash}{ffc15443f8a7fdf7e6f50273527fa0b5}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{number}{4}
+      \field{title}{Backpropagation Applied to Handwritten Zip Code Recognition}
+      \field{volume}{1}
+      \field{year}{1989}
+      \field{pages}{541\bibrangedash 551}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1162/neco.1989.1.4.541
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1162/neco.1989.1.4.541
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/neco.1989.1.4.541
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/neco.1989.1.4.541
+      \endverb
+    \endentry
+    \entry{manassi2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fc4a028f023cd0bbeac27c5ec3f5ebbb}{%
+           family={Manassi},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0448d3ec47df5a75acc2410c3d5feb6}{%
+           family={Sayim},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5173094e8b048d4dd233fd670ec19966}{%
+           family={Herzog},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The {Association for Research in Vision and Ophthalmology}}%
+      }
+      \strng{namehash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \strng{fullhash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \strng{bibnamehash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \strng{authorbibnamehash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \strng{authornamehash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \strng{authorfullhash}{e78b1c8fd21cdcc34b1023f7eeecc8f4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of vision}
+      \field{number}{13}
+      \field{title}{When crowding of crowding leads to uncrowding}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{10\bibrangedash 10}
+      \range{pages}{1}
+    \endentry
+    \entry{mobius1995}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=ab4ea3adb6f3d3051da1a8179edae570}{%
+           family={M{ö}bius},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \strng{fullhash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \strng{bibnamehash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \strng{authorbibnamehash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \strng{authornamehash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \strng{authorfullhash}{ab4ea3adb6f3d3051da1a8179edae570}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of ICPhS}
+      \field{title}{Components of a quantitative model of German intonation}
+      \field{volume}{95}
+      \field{year}{1995}
+      \true{nocite}
+      \field{pages}{108\bibrangedash 115}
+      \range{pages}{8}
+    \endentry
+    \entry{mobius1993}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=ab4ea3adb6f3d3051da1a8179edae570}{%
+           family={M{ö}bius},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=2f90ffe64be17ae63b1628f31df96418}{%
+           family={P{ä}tzold},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16d02dc575d8420a7d3067e90c93ed32}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fe10c616660fd5107334b92973bfcc34}
+      \strng{fullhash}{fe10c616660fd5107334b92973bfcc34}
+      \strng{bibnamehash}{fe10c616660fd5107334b92973bfcc34}
+      \strng{authorbibnamehash}{fe10c616660fd5107334b92973bfcc34}
+      \strng{authornamehash}{fe10c616660fd5107334b92973bfcc34}
+      \strng{authorfullhash}{fe10c616660fd5107334b92973bfcc34}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Speech Communication}
+      \field{number}{1-2}
+      \field{title}{Analysis and synthesis of German F0 contours by means of Fujisaki's model}
+      \field{volume}{13}
+      \field{year}{1993}
+      \true{nocite}
+      \field{pages}{53\bibrangedash 61}
+      \range{pages}{9}
+    \endentry
+    \entry{mobius2000}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=ab4ea3adb6f3d3051da1a8179edae570}{%
+           family={M{ö}bius},
+           familyi={M\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=cb3fe7dd0e78314d459d2fe3ec1822dc}{%
+           family={Van\bibnamedelima Santen},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Jan\bibnamedelima PH},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5952fb8b440f6fefc03673b128be468d}
+      \strng{fullhash}{5952fb8b440f6fefc03673b128be468d}
+      \strng{bibnamehash}{5952fb8b440f6fefc03673b128be468d}
+      \strng{authorbibnamehash}{5952fb8b440f6fefc03673b128be468d}
+      \strng{authornamehash}{5952fb8b440f6fefc03673b128be468d}
+      \strng{authorfullhash}{5952fb8b440f6fefc03673b128be468d}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intonation}
+      \field{title}{A quantitative model of F0 generation and alignment}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{269\bibrangedash 288}
+      \range{pages}{20}
+    \endentry
+    \entry{montavon2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e0889b25b37f68a2d73747dc5dfcb8a0}{%
+           family={Montavon},
+           familyi={M\bibinitperiod},
+           given={Gr{é}goire},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7623274e86daf16f369161c4ae78f7}{%
+           family={Lapuschkin},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d122a2a87d21da4007f460564975e967}{%
+           family={Binder},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f49b6382ab4ca917a2aa2249f875f79}{%
+           family={Samek},
+           familyi={S\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f1b6144a45b1967e989e74552e37ada}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={Klaus-Robert},
+           giveni={K\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0e9835294203df396bc6021a5d0308c5}
+      \strng{fullhash}{09a4e066534147e34cdbac474bfa39c4}
+      \strng{bibnamehash}{0e9835294203df396bc6021a5d0308c5}
+      \strng{authorbibnamehash}{0e9835294203df396bc6021a5d0308c5}
+      \strng{authornamehash}{0e9835294203df396bc6021a5d0308c5}
+      \strng{authorfullhash}{09a4e066534147e34cdbac474bfa39c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern Recognition}
+      \field{title}{Explaining nonlinear classification decisions with deep {Taylor} decomposition}
+      \field{volume}{65}
+      \field{year}{2017}
+      \field{pages}{211\bibrangedash 222}
+      \range{pages}{12}
+    \endentry
+    \entry{vandenoord2016a}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=705a5ed355c190be3a39e0a5134d2ae5}{%
+           family={Oord},
+           familyi={O\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=a133b469b21b870786119a47b1b691eb}{%
+           family={Dieleman},
+           familyi={D\bibinitperiod},
+           given={Sander},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b8c874ca3304dce43ffbe24d5affe62}{%
+           family={Zen},
+           familyi={Z\bibinitperiod},
+           given={Heiga},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2d0778c1cdd451c75b874b58eec7564}{%
+           family={Kalchbrenner},
+           familyi={K\bibinitperiod},
+           given={Nal},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99e8963f52f6bfb1af553a6a8823718a}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481308b301166b521c74fde6566e97e6}{%
+           family={Kavukcuoglu},
+           familyi={K\bibinitperiod},
+           given={Koray},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5a17822de636ff8de45307e236e0824}
+      \strng{fullhash}{8782a9f24977c37151479f44b75f9f94}
+      \strng{bibnamehash}{d5a17822de636ff8de45307e236e0824}
+      \strng{authorbibnamehash}{d5a17822de636ff8de45307e236e0824}
+      \strng{authornamehash}{d5a17822de636ff8de45307e236e0824}
+      \strng{authorfullhash}{8782a9f24977c37151479f44b75f9f94}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SD}
+      \field{eprinttype}{arXiv}
+      \field{title}{{WaveNet}: A Generative Model for Raw Audio}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1609.03499
+      \endverb
+    \endentry
+    \entry{remy2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e2195732578c15c46767717a095b046}{%
+           family={Remy},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{9e2195732578c15c46767717a095b046}
+      \strng{fullhash}{9e2195732578c15c46767717a095b046}
+      \strng{bibnamehash}{9e2195732578c15c46767717a095b046}
+      \strng{authorbibnamehash}{9e2195732578c15c46767717a095b046}
+      \strng{authornamehash}{9e2195732578c15c46767717a095b046}
+      \strng{authorfullhash}{9e2195732578c15c46767717a095b046}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/philipperemy/keras-tcn}}
+      \field{journaltitle}{{GitHub} repository}
+      \field{title}{Temporal Convolutional Networks for {Keras}}
+      \field{year}{2020}
+    \endentry
+    \entry{rossi2000}{proceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=370363d927113576833fa72258f742d9}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f8d021004a8bc57790ba1bafc4b3bc6e}{%
+           family={Botinis},
+           familyi={B\bibinitperiod},
+           given={Antonis},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{370363d927113576833fa72258f742d9}
+      \strng{fullhash}{370363d927113576833fa72258f742d9}
+      \strng{bibnamehash}{370363d927113576833fa72258f742d9}
+      \strng{authorbibnamehash}{370363d927113576833fa72258f742d9}
+      \strng{authornamehash}{370363d927113576833fa72258f742d9}
+      \strng{authorfullhash}{370363d927113576833fa72258f742d9}
+      \strng{editorbibnamehash}{f8d021004a8bc57790ba1bafc4b3bc6e}
+      \strng{editornamehash}{f8d021004a8bc57790ba1bafc4b3bc6e}
+      \strng{editorfullhash}{f8d021004a8bc57790ba1bafc4b3bc6e}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intonation: Analysis, Modelling and Technology}
+      \field{isbn}{978-94-011-4317-2}
+      \field{title}{Intonation: Past, Present, Future}
+      \field{year}{2000}
+      \field{pages}{13\bibrangedash 52}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1007/978-94-011-4317-2_2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-94-011-4317-2_2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-94-011-4317-2_2
+      \endverb
+    \endentry
+    \entry{samek2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7f49b6382ab4ca917a2aa2249f875f79}{%
+           family={Samek},
+           familyi={S\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0889b25b37f68a2d73747dc5dfcb8a0}{%
+           family={Montavon},
+           familyi={M\bibinitperiod},
+           given={Gr{é}goire},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d122a2a87d21da4007f460564975e967}{%
+           family={Binder},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae7623274e86daf16f369161c4ae78f7}{%
+           family={Lapuschkin},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f1b6144a45b1967e989e74552e37ada}{%
+           family={M{ü}ller},
+           familyi={M\bibinitperiod},
+           given={Klaus-Robert},
+           giveni={K\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{341d993b247c87792776bbde4307294e}
+      \strng{fullhash}{21101cf0d43da40d01dc8484a51e765f}
+      \strng{bibnamehash}{341d993b247c87792776bbde4307294e}
+      \strng{authorbibnamehash}{341d993b247c87792776bbde4307294e}
+      \strng{authornamehash}{341d993b247c87792776bbde4307294e}
+      \strng{authorfullhash}{21101cf0d43da40d01dc8484a51e765f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1611.08191}
+      \field{title}{Interpreting the predictions of complex {ML} models by layer-wise relevance propagation}
+      \field{year}{2016}
+    \endentry
+    \entry{tian2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1f2fa79cd1d486c06de32988aac35b75}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Biao},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e89e60080831d69389dc0b64d41cb2f}{%
+           family={Ku{ś}mierek},
+           familyi={K\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7bc80f25045e32b9e390b89b2b3020d}{%
+           family={Rauschecker},
+           familyi={R\bibinitperiod},
+           given={Josef\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \strng{fullhash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \strng{bibnamehash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \strng{authorbibnamehash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \strng{authornamehash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \strng{authorfullhash}{7a62fbbcac5f9c6b5e80ffc0f07e7078}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the {National Academy of Sciences}}
+      \field{number}{19}
+      \field{title}{Analogues of simple and complex cells in rhesus monkey auditory cortex}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{7892\bibrangedash 7897}
+      \range{pages}{6}
+    \endentry
+    \entry{wang2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=03d3e23852937fa39b0e34246c4ecd1d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e69437598cddd27b1a728c9b76dbf2ea}{%
+           family={Takaki},
+           familyi={T\bibinitperiod},
+           given={Shinji},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64bfb2b1761cc3077e7b25f2eaa562ee}{%
+           family={Yamagishi},
+           familyi={Y\bibinitperiod},
+           given={Junichi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c497f54daaffa531d697af899f7a258c}
+      \strng{fullhash}{c497f54daaffa531d697af899f7a258c}
+      \strng{bibnamehash}{c497f54daaffa531d697af899f7a258c}
+      \strng{authorbibnamehash}{c497f54daaffa531d697af899f7a258c}
+      \strng{authornamehash}{c497f54daaffa531d697af899f7a258c}
+      \strng{authorfullhash}{c497f54daaffa531d697af899f7a258c}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE}/{ACM} Transactions on Audio, Speech, and Language Processing}
+      \field{title}{Neural source-filter waveform models for statistical parametric speech synthesis}
+      \field{volume}{28}
+      \field{year}{2019}
+      \field{pages}{402\bibrangedash 415}
+      \range{pages}{14}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

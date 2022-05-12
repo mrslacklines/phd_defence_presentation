@@ -6,7 +6,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage[style=authoryear]{biblatex}
 
+\bibliography{bib-refs}
 
 %\captionsetup{font=scriptsize,labelfont=scriptsize}
 \setbeamerfont{caption}{size=\scriptsize}
@@ -67,7 +69,6 @@
 \tiny{Institute of Ethnolinguistics}\\
 }
 
-% WYWALIĆ
 \date{\tiny{May 18, 2022}}
 
 %
@@ -82,14 +83,14 @@
 \frametitle{Intonation}
 \framesubtitle{Definition}
 \vspace{2cm}
-\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has a phonetic aspect, the fundamental frequency ($F_{0}$), and a grammatical (phonological) aspect.''} (F\'ery 2016)
+\textit<1-2>{``The tonal structure of speech expressed by the melody produced by our larynx. It has a phonetic aspect, the fundamental frequency ($F_{0}$), and a grammatical (phonological) aspect.''} \parencite{fery2016}
 \begin{columns}
 \column{0.5\textwidth}
 \column{0.5\textwidth}
 \vspace{0.5cm}
 \invisible<1>{\begin{alertblock}{}
 All definitions of intonation "are epistemological
-definitions,i.e., not a priori programmatic definitions, but a posteriori statements of a practice and methodology." (Rossi 2000)
+definitions,i.e., not a priori programmatic definitions, but a posteriori statements of a practice and methodology." \parencite{rossi2000}
 \end{alertblock}}
 \end{columns}
 \end{frame}
@@ -196,7 +197,7 @@ A Deep Temporal Convolutional Network can become an explanatory scientific model
 \begin{center}
   \includegraphics[width=\textwidth]{res/wavenet_evaluation.png}
 \end{center}
-	\caption{Google WaveNet evaluation results. (from van den Oord 2016).}
+	\caption{Google WaveNet evaluation results \parencite{vandenoord2016a}.}
 \end{figure}
 \begin{exampleblock}{}
 \scriptsize{
@@ -217,7 +218,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/human_vision.png}
 \end{center}
-	\caption{Hierarchical, feedforward visual processing in human brain. (Adopted from Manassi et al. 2013)}
+	\caption{Hierarchical, feedforward visual processing in human brain. Adopted from \parencite{manassi2013}.}
 \end{figure}
 \end{frame}
 
@@ -227,7 +228,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=\textwidth]{res/lenet.png}
 \end{center}
-	\caption{Image recognition Convolutional Neural Network (LeNet-5). (Adopted from LeCun et al. 1989)}
+	\caption{Image recognition Convolutional Neural Network (LeNet-5). Adopted from \parencite{lecun1989}.}
 \end{figure}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{res/filter_vis.png}
@@ -242,7 +243,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/hubel-experiment-cat.png}
 \end{center}
-	\caption{Famous Hubel and Wiesel cat experiment. (adopted from Hubel and Wiesel 1959).}
+	\caption{Famous Hubel and Wiesel cat experiment. Adopted from \parencite{hubel1959}.}
 \end{figure}
 \column{0.5\textwidth}
 \vspace{0.8cm}
@@ -250,7 +251,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.6\textwidth]{res/hubel-experiment-cat-2.png}
 \end{center}
-	\caption{Neural response of simple cells. (adopted from Hubel and Wiesel 1968).}
+	\caption{Neural response of simple cells. Adopted from \parencite{hubel1962}.}
 \end{figure}
 \end{columns}
 \hrule
@@ -260,7 +261,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.6\textwidth]{res/simple_cells.png}
 \end{center}
-	\caption{Simple receptive fields. (adopted from Hubel and Wiesel 1962).}
+	\caption{Simple receptive fields. Adopted from \parencite{hubel1962}.}
 \end{figure}
 \column{0.5\textwidth}
 \vspace{0.2cm}
@@ -268,7 +269,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/complex_cells.png}
 \end{center}
-	\caption{Three different types of complex receptive fields. (adopted from Hubel and Wiesel 1962).}
+	\caption{Three different types of complex receptive fields. Adopted from \parencite{hubel1962}.}
 \end{figure}
 \end{columns}
 \end{frame}
@@ -288,7 +289,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/convolution_kernels_examples.png}
 \end{center}
-	\caption{Examples of convoluting and image with different convolution kernels. (Adopted from the Wikipedia).}
+	\caption{Examples of convoluting and image with different convolution kernels. Adopted from Wikipedia: \parencite{wiki:kernel}.}
 \end{figure}
 \end{columns}
 \hrule
@@ -298,7 +299,7 @@ which are used mainly in the area of of image recognition where they excel.}
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/simple_cells.png}
 \end{center}
-	\caption{Simple receptive fields. (adopted from Hubel and Wiesel 1962).}
+	\caption{Simple receptive fields. Adopted from \parencite{hubel1962}.}
 \end{figure}
 \column{0.5\textwidth}
 \vspace{0.7cm}
@@ -332,7 +333,7 @@ The computations that the \textbf{complex cells} perform are similiar to the \te
 \begin{center}
   \includegraphics[width=0.75\textwidth]{res/complex_cells.png}
 \end{center}
-	\caption{Three different types of complex receptive fields. (adopted from Hubel and Wiesel 1962).}
+	\caption{Three different types of complex receptive fields. Adopted from \parencite{hubel1962}.}
 \end{figure}
 \end{columns}
 \end{frame}
@@ -343,7 +344,7 @@ The computations that the \textbf{complex cells} perform are similiar to the \te
 \begin{center}
   \includegraphics[width=0.9\textwidth]{res/simple_cells_auditory_cortes.png}
 \end{center}
-	\caption{Responses of single neurons in primary auditory cortex (A1) of rhesus monkeys to band-passed noise (BPN) bursts centered at particular frequencies.. (Adopted from Tian et al. 2013)}
+	\caption{Responses of single neurons in primary auditory cortex (A1) of rhesus monkeys to band-passed noise (BPN) bursts centered at particular frequencies. Adopted \parencite{tian2013}.}
 \end{figure}
 \begin{columns}
 \column{0.3\textwidth}
@@ -364,7 +365,7 @@ Auditory cortex also contains \textbf{simple (and complex) cells} with two-dimen
 \begin{center}
   \includegraphics[width=0.65\textwidth]{res/sensitivity_vs_relevance}
 \end{center}
-	\caption{Results of sensitivity-based and relevance-based explainability methods. (Based on Samek 2016)}
+	\caption{Results of sensitivity-based and relevance-based explainability methods. Based on \parencite{samek2016}}
 \end{figure}
 \end{frame}
 
@@ -381,7 +382,7 @@ Auditory cortex also contains \textbf{simple (and complex) cells} with two-dimen
 \begin{center}
   \includegraphics[width=0.8\textwidth]{res/dataset_blf}
 \end{center}
-	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
+	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer \parencite{demenko2007, demenko2008, demenko2010a, demenko2010b}.}
 \end{figure}
 \end{frame}
 
@@ -433,7 +434,8 @@ Auditory cortex also contains \textbf{simple (and complex) cells} with two-dimen
 \end{exampleblock}
 \begin{block}
 {}
-\scriptsize{\url{github.com/philipperemy/keras-tcn}}
+\scriptsize{\url{github.com/philipperemy/keras-tcn}\\
+\parencite{remy2020}}
 \end{block}
 }
 \end{columns}
@@ -496,7 +498,8 @@ Training parameters:
 \end{figure}
 \scriptsize{
 \begin{exampleblock}{}
-{INNvestigate} Neural Networks!\\(Alber et al. 2019)\\
+{INNvestigate} Neural Networks!\\
+\parencite{alber2019}\\
 \vspace{1cm}
 \url{github.com/albermax/innvestigate}
 \vspace{0.2cm}
@@ -516,7 +519,7 @@ Training parameters:
 \end{center}
 \scriptsize{
 \begin{block}{}
-Neural Source Filter Vocoder from (X. Wang et al. 2019)
+Neural Source Filter Vocoder from \parencite{wang2019}.
 \end{block}
 }
 \end{frame}
@@ -657,7 +660,7 @@ Neural Source Filter Vocoder from (X. Wang et al. 2019)
   \includegraphics[width=0.7\textwidth]{res/mse}
 \end{center}
 \begin{center}
-  \includegraphics[width=0.5\textwidth]{res/mse_form}
+  \includegraphics[width=0.3\textwidth]{res/mse_form}
 \end{center}
 \end{frame}
 
@@ -1052,6 +1055,10 @@ Thank you!
 \end{center}
 \end{frame}
 
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+\printbibliography
+\end{frame}
 
 
 
@@ -1077,6 +1084,15 @@ Thank you!
 % Additional slides
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{frame}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+Extra slides
+\end{center}
+\end{frame}
 
 \begin{frame}
 \frametitle{Speech synthesis - Wavenet}
@@ -1084,11 +1100,11 @@ Thank you!
 \begin{center}
   \includegraphics[width=\textwidth]{res/dilated_convolutions.png}
 \end{center}
-	\caption{Dilated causal convolutions. (Adopted from the original WaveNet paper).}
+	\caption{Dilated causal convolutions. Adopted from \parencite{vandenoord2016a}.}
 \end{figure}
 The causality is expressed through the joint probability of the modeled waveform 
 $\vec{x} = \{ x_1, \dots, x_T \}$
-being factorized as a product of conditional probabilities of all previous timesteps (van den Oord 2016), i.e.:
+being factorized as a product of conditional probabilities of all previous timesteps \parencite{vandenoord2016a}, i.e.:
 \begin{equation}
 p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\right)
 \end{equation}
@@ -1102,7 +1118,7 @@ p\left(\vec{x}\right) = \prod_{t=1}^{T} p\left(x_t \mid x_1, \dots ,x_{t-1}\righ
 \begin{center}
   \includegraphics[width=\textwidth]{res/residual_blocks.png}
 \end{center}
-	\caption{Residual and skip connections from a stack of k gated convolutional layers (Adopted from the original WaveNet paper).}
+	\caption{Residual and skip connections from a stack of k gated convolutional layers Adopted from \parencite{vandenoord2016a}.}
 \end{figure}
 \column{0.4\textwidth}
 \begin{exampleblock}{}
@@ -1117,12 +1133,9 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 
 \begin{frame}
 \frametitle{Dataset}
-\begin{figure}
 \begin{center}
   \includegraphics[width=0.7\textwidth]{res/dataset_structure}
 \end{center}
-	\caption{Speech corpus built originally for the purpose of the Polish BOSS unit selection synthesizer (Demenko, Bachan, M{\"o}bius 2008; Demenko, Klessa, Szyma\'nski, Breuer, Hess 2010).}
-\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -1148,7 +1161,7 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \begin{center}
   \includegraphics[width=0.4\textwidth]{res/tonal_accents}
 \end{center}
-	\caption{Acoustic realizations of the 9 different accents. Adopted from (Demenko 1999).}
+	\caption{Acoustic realizations of the 9 different accents. Adopted from \parencite{demenko1999}.}
 \end{figure}
 \end{frame}
 
@@ -1174,7 +1187,9 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \end{frame}
 
 \begin{frame}
+\begin{center}
 \includegraphics[width=0.4\textwidth]{res/network_architecture}
+\end{center}
 \end{frame}
 
 
@@ -1183,7 +1198,7 @@ where $\ast$ denotes a convolution operator, $\odot$ denotes an element-wise mul
 \begin{center}
   \includegraphics[width=0.4\textwidth]{res/deep_taylor}
 \end{center}
-	\caption{Computational flow of deep Taylor decomposition. (Adopted from Montavon 2017).}
+	\caption{Computational flow of deep Taylor decomposition. Adopted from \parencite{montavon2017}.}
 \end{figure}
 \begin{block}{}
 The relevance in this framework can be defined as:
@@ -1191,6 +1206,7 @@ The relevance in this framework can be defined as:
 R_j = \sum _k \frac{a_j w_{jk}}{\sum _{0,j} a_j w_{jk}} R_k
 \end{equation}
 \end{block}
+\nocite{gibbon1976, mobius1993, mobius2000, mobius1995}
 \end{frame}
 
 

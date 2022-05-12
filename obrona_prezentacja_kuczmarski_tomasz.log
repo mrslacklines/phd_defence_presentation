@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.15)  12 MAY 2022 02:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.15)  12 MAY 2022 03:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,8 +694,225 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-\c@innerhypothesis=\count311
-\c@notion=\count312
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count311
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count312
+\c@listtotal=\count313
+\c@listcount=\count314
+\c@liststart=\count315
+\c@liststop=\count316
+\c@citecount=\count317
+\c@citetotal=\count318
+\c@multicitecount=\count319
+\c@multicitetotal=\count320
+\c@instcount=\count321
+\c@maxnames=\count322
+\c@minnames=\count323
+\c@maxitems=\count324
+\c@minitems=\count325
+\c@citecounter=\count326
+\c@maxcitecounter=\count327
+\c@savedcitecounter=\count328
+\c@uniquelist=\count329
+\c@uniquename=\count330
+\c@refsection=\count331
+\c@refsegment=\count332
+\c@maxextratitle=\count333
+\c@maxextratitleyear=\count334
+\c@maxextraname=\count335
+\c@maxextradate=\count336
+\c@maxextraalpha=\count337
+\c@abbrvpenalty=\count338
+\c@highnamepenalty=\count339
+\c@lownamepenalty=\count340
+\c@maxparens=\count341
+\c@parenlevel=\count342
+\blx@tempcnta=\count343
+\blx@tempcntb=\count344
+\blx@tempcntc=\count345
+\blx@maxsection=\count346
+\blx@maxsegment@0=\count347
+\blx@notetype=\count348
+\blx@parenlevel@text=\count349
+\blx@parenlevel@foot=\count350
+\blx@sectionciteorder@0=\count351
+\blx@entrysetcounter=\count352
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language34
+\c@mincomprange=\count353
+\c@maxcomprange=\count354
+\c@mincompwidth=\count355
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count356
+\c@savedafterword=\count357
+\c@annotator=\count358
+\c@savedannotator=\count359
+\c@author=\count360
+\c@savedauthor=\count361
+\c@bookauthor=\count362
+\c@savedbookauthor=\count363
+\c@commentator=\count364
+\c@savedcommentator=\count365
+\c@editor=\count366
+\c@savededitor=\count367
+\c@editora=\count368
+\c@savededitora=\count369
+\c@editorb=\count370
+\c@savededitorb=\count371
+\c@editorc=\count372
+\c@savededitorc=\count373
+\c@foreword=\count374
+\c@savedforeword=\count375
+\c@holder=\count376
+\c@savedholder=\count377
+\c@introduction=\count378
+\c@savedintroduction=\count379
+\c@namea=\count380
+\c@savednamea=\count381
+\c@nameb=\count382
+\c@savednameb=\count383
+\c@namec=\count384
+\c@savednamec=\count385
+\c@translator=\count386
+\c@savedtranslator=\count387
+\c@shortauthor=\count388
+\c@savedshortauthor=\count389
+\c@shorteditor=\count390
+\c@savedshorteditor=\count391
+\c@labelname=\count392
+\c@savedlabelname=\count393
+\c@institution=\count394
+\c@savedinstitution=\count395
+\c@lista=\count396
+\c@savedlista=\count397
+\c@listb=\count398
+\c@savedlistb=\count399
+\c@listc=\count400
+\c@savedlistc=\count401
+\c@listd=\count402
+\c@savedlistd=\count403
+\c@liste=\count404
+\c@savedliste=\count405
+\c@listf=\count406
+\c@savedlistf=\count407
+\c@location=\count408
+\c@savedlocation=\count409
+\c@organization=\count410
+\c@savedorganization=\count411
+\c@origlocation=\count412
+\c@savedoriglocation=\count413
+\c@origpublisher=\count414
+\c@savedorigpublisher=\count415
+\c@publisher=\count416
+\c@savedpublisher=\count417
+\c@language=\count418
+\c@savedlanguage=\count419
+\c@origlanguage=\count420
+\c@savedoriglanguage=\count421
+\c@pageref=\count422
+\c@savedpageref=\count423
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count424
+\c@textcitetotal=\count425
+\c@textcitemaxnames=\count426
+\c@biburlbigbreakpenalty=\count427
+\c@biburlbreakpenalty=\count428
+\c@biburlnumpenalty=\count429
+\c@biburlucpenalty=\count430
+\c@biburllcpenalty=\count431
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count432
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count433
+\c@bbx:relatedtotal=\count434
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\c@innerhypothesis=\count435
+\c@notion=\count436
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2019/11/15 version 4.22 text color boxes
@@ -722,7 +939,7 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks45
 \verbatim@line=\toks46
-\verbatim@in@stream=\read3
+\verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -734,15 +951,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box75
 \tcb@lowerbox=\box76
 \tcb@phantombox=\box77
-\c@tcbbreakpart=\count313
-\c@tcblayer=\count314
-\tcolorbox@number=\count315
+\c@tcbbreakpart=\count437
+\c@tcblayer=\count438
+\tcolorbox@number=\count439
 \tcb@temp=\box78
 \tcb@temp=\box79
 \tcb@temp=\box80
 \tcb@temp=\box81
-\tcb@out=\write5
-\tcb@record@out=\write6
+\tcb@out=\write6
+\tcb@record@out=\write7
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
@@ -765,7 +982,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count316
+\pgf@plot@mark@count=\count440
 \pgfplotmarksize=\dimen281
 )
 \tikz@lastx=\dimen282
@@ -780,18 +997,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box83
 \tikz@tempbox=\box84
 \tikz@tempbox@bg=\box85
-\tikztreelevel=\count317
-\tikznumberofchildren=\count318
-\tikznumberofcurrentchild=\count319
-\tikz@fig@count=\count320
+\tikztreelevel=\count441
+\tikznumberofchildren=\count442
+\tikznumberofcurrentchild=\count443
+\tikz@fig@count=\count444
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count321
-\pgfmatrixcurrentcolumn=\count322
-\pgf@matrix@numberofcolumns=\count323
+\pgfmatrixcurrentrow=\count445
+\pgfmatrixcurrentcolumn=\count446
+\pgf@matrix@numberofcolumns=\count447
 )
-\tikz@expandcount=\count324
+\tikz@expandcount=\count448
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -803,32 +1020,35 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty))
+\@quotelevel=\count449
+\@quotereset=\count450
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count325
+\l__kernel_color_stack_int=\count451
 \l__pdf_internal_box=\box86
 )
 (./obrona_prezentacja_kuczmarski_tomasz.aux)
 \openout1 = `obrona_prezentacja_kuczmarski_tomasz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
-7.
+9.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -869,16 +1089,16 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
+\scratchcounter=\count452
 \scratchdimen=\dimen290
 \scratchbox=\box87
-\nofMPsegments=\count327
-\nofMParguments=\count328
+\nofMPsegments=\count453
+\nofMParguments=\count454
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count329
+\MPscratchCnt=\count455
 \MPscratchDim=\dimen291
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
 \everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -891,7 +1111,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -902,63 +1122,63 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count332
+\c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
 (./obrona_prezentacja_kuczmarski_tomasz.out)
 (./obrona_prezentacja_kuczmarski_tomasz.out)
-\@outlinefile=\write7
-\openout7 = `obrona_prezentacja_kuczmarski_tomasz.out'.
+\@outlinefile=\write8
+\openout8 = `obrona_prezentacja_kuczmarski_tomasz.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 57.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 57.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 57.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 57.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 59.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 57.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 57.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 57.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 57.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 57.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 57.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 57.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 59.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 57.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 57.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 57.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 57.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 57.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 59.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 57.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -983,25 +1203,45 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./obrona_prezentacja_kuczmarski_tomasz.nav)
-Overfull \vbox (1.36163pt too high) detected at line 57
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `obrona_prezentacja_kuczmarski_tomasz.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'obrona_prezentacja_kuczmarski_tomasz.bbl' foun
+d.
+
+(./obrona_prezentacja_kuczmarski_tomasz.bbl)
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
+
+(./obrona_prezentacja_kuczmarski_tomasz.nav)
+Overfull \vbox (1.36163pt too high) detected at line 59
  []
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 63.
+(hyperref)                setting the option has no effect on input line 65.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 76.
-<res/logo_uam.jpg, id=120, 426.393pt x 497.6994pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
+<res/logo_uam.jpg, id=132, 426.393pt x 497.6994pt>
 File: res/logo_uam.jpg Graphic file (type jpg)
 <use res/logo_uam.jpg>
-Package pdftex.def Info: res/logo_uam.jpg  used on input line 76.
+Package pdftex.def Info: res/logo_uam.jpg  used on input line 77.
 (pdftex.def)             Requested size: 30.73085pt x 35.86774pt.
 
-Overfull \vbox (4.6958pt too high) detected at line 76
+Overfull \vbox (4.6958pt too high) detected at line 77
  []
 
 
@@ -1012,51 +1252,51 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/logo_uam.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-95.
+96.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-5.
+6.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-95.
+96.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-95.
+96.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 95.
+(Font)              <9> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 95.
+(Font)              <6> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 95.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+(Font)              <5> on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
@@ -1070,10 +1310,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [3
 
 ]
-<res/mapping_highlight.png, id=233, 595.22375pt x 475.7775pt>
+<res/mapping_highlight.png, id=251, 595.22375pt x 475.7775pt>
 File: res/mapping_highlight.png Graphic file (type png)
 <use res/mapping_highlight.png>
-Package pdftex.def Info: res/mapping_highlight.png  used on input line 121.
+Package pdftex.def Info: res/mapping_highlight.png  used on input line 122.
 (pdftex.def)             Requested size: 153.64493pt x 122.80627pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1095,25 +1335,25 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 15
-3.
+4.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 153.
+(Font)              using `T1/ptm/m/sc' instead on input line 154.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 153.
+(Font)              using `T1/ptm/m/sc' instead on input line 154.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 153.
+(Font)              using `T1/ptm/m/sc' instead on input line 154.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 153.
+(Font)              using `T1/ptm/m/sc' instead on input line 154.
 
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1122,10 +1362,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [7
 
 ]
-<res/background.png, id=379, 1044.90375pt x 623.32875pt>
+<res/background.png, id=397, 1044.90375pt x 623.32875pt>
 File: res/background.png Graphic file (type png)
 <use res/background.png>
-Package pdftex.def Info: res/background.png  used on input line 169.
+Package pdftex.def Info: res/background.png  used on input line 170.
 (pdftex.def)             Requested size: 307.28987pt x 183.30971pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1134,11 +1374,11 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [8
 
  <./res/background.png>]
-<res/intonation_background_pl.png, id=422, 923.45pt x 551.05875pt>
+<res/intonation_background_pl.png, id=440, 923.45pt x 551.05875pt>
 File: res/intonation_background_pl.png Graphic file (type png)
 <use res/intonation_background_pl.png>
 Package pdftex.def Info: res/intonation_background_pl.png  used on input line 1
-75.
+76.
 (pdftex.def)             Requested size: 307.28987pt x 183.37187pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1147,17 +1387,17 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [9
 
  <./res/intonation_background_pl.png>]
-<res/speech_synthesis_clunit_hmm.png, id=460, 1095.09125pt x 798.985pt>
+<res/speech_synthesis_clunit_hmm.png, id=478, 1095.09125pt x 798.985pt>
 File: res/speech_synthesis_clunit_hmm.png Graphic file (type png)
 <use res/speech_synthesis_clunit_hmm.png>
 Package pdftex.def Info: res/speech_synthesis_clunit_hmm.png  used on input lin
-e 189.
+e 190.
 (pdftex.def)             Requested size: 184.3758pt x 134.52115pt.
-<res/speech_synthesis_wavenet.png, id=461, 834.11626pt x 282.05376pt>
+<res/speech_synthesis_wavenet.png, id=479, 834.11626pt x 282.05376pt>
 File: res/speech_synthesis_wavenet.png Graphic file (type png)
 <use res/speech_synthesis_wavenet.png>
 Package pdftex.def Info: res/speech_synthesis_wavenet.png  used on input line 1
-89.
+90.
 (pdftex.def)             Requested size: 122.91406pt x 41.56168pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1166,15 +1406,15 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [10
 
  <./res/speech_synthesis_clunit_hmm.png> <./res/speech_synthesis_wavenet.png>]
-<res/wavenet_evaluation.png, id=501, 629.35126pt x 448.67625pt>
+<res/wavenet_evaluation.png, id=520, 629.35126pt x 448.67625pt>
 File: res/wavenet_evaluation.png Graphic file (type png)
 <use res/wavenet_evaluation.png>
-Package pdftex.def Info: res/wavenet_evaluation.png  used on input line 210.
+Package pdftex.def Info: res/wavenet_evaluation.png  used on input line 211.
 (pdftex.def)             Requested size: 122.91406pt x 87.62502pt.
-<res/tcn.png, id=502, 964.60374pt x 934.49126pt>
+<res/tcn.png, id=523, 964.60374pt x 934.49126pt>
 File: res/tcn.png Graphic file (type png)
 <use res/tcn.png>
-Package pdftex.def Info: res/tcn.png  used on input line 210.
+Package pdftex.def Info: res/tcn.png  used on input line 211.
 (pdftex.def)             Requested size: 184.3758pt x 178.61037pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1183,10 +1423,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [11
 
  <./res/wavenet_evaluation.png> <./res/tcn.png>]
-<res/human_vision.png, id=543, 308.352pt x 108.6459pt>
+<res/human_vision.png, id=564, 308.352pt x 108.6459pt>
 File: res/human_vision.png Graphic file (type png)
 <use res/human_vision.png>
-Package pdftex.def Info: res/human_vision.png  used on input line 222.
+Package pdftex.def Info: res/human_vision.png  used on input line 223.
 (pdftex.def)             Requested size: 230.46739pt x 81.20569pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1195,18 +1435,18 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [12
 
  <./res/human_vision.png>]
-<res/lenet.png, id=582, 204.765pt x 70.1019pt>
+<res/lenet.png, id=606, 204.765pt x 70.1019pt>
 File: res/lenet.png Graphic file (type png)
 <use res/lenet.png>
-Package pdftex.def Info: res/lenet.png  used on input line 235.
+Package pdftex.def Info: res/lenet.png  used on input line 236.
 (pdftex.def)             Requested size: 307.28987pt x 105.20819pt.
-<res/filter_vis.png, id=583, 928.46875pt x 324.21124pt>
+<res/filter_vis.png, id=608, 928.46875pt x 324.21124pt>
 File: res/filter_vis.png Graphic file (type png)
 <use res/filter_vis.png>
-Package pdftex.def Info: res/filter_vis.png  used on input line 235.
+Package pdftex.def Info: res/filter_vis.png  used on input line 236.
 (pdftex.def)             Requested size: 184.3758pt x 64.38101pt.
 
-Overfull \vbox (1.66531pt too high) detected at line 235
+Overfull \vbox (1.66531pt too high) detected at line 236
  []
 
 
@@ -1216,29 +1456,29 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [13
 
  <./res/lenet.png> <./res/filter_vis.png>]
-<res/hubel-experiment-cat.png, id=624, 163.3302pt x 108.1641pt>
+<res/hubel-experiment-cat.png, id=650, 163.3302pt x 108.1641pt>
 File: res/hubel-experiment-cat.png Graphic file (type png)
 <use res/hubel-experiment-cat.png>
-Package pdftex.def Info: res/hubel-experiment-cat.png  used on input line 274.
+Package pdftex.def Info: res/hubel-experiment-cat.png  used on input line 275.
 (pdftex.def)             Requested size: 115.23369pt x 76.3118pt.
-<res/hubel-experiment-cat-2.png, id=625, 623.32875pt x 328.22626pt>
+<res/hubel-experiment-cat-2.png, id=653, 623.32875pt x 328.22626pt>
 File: res/hubel-experiment-cat-2.png Graphic file (type png)
 <use res/hubel-experiment-cat-2.png>
-Package pdftex.def Info: res/hubel-experiment-cat-2.png  used on input line 274
+Package pdftex.def Info: res/hubel-experiment-cat-2.png  used on input line 275
 .
 (pdftex.def)             Requested size: 92.18788pt x 48.54066pt.
-<res/simple_cells.png, id=626, 344.9688pt x 220.6644pt>
+<res/simple_cells.png, id=656, 344.9688pt x 220.6644pt>
 File: res/simple_cells.png Graphic file (type png)
 <use res/simple_cells.png>
-Package pdftex.def Info: res/simple_cells.png  used on input line 274.
+Package pdftex.def Info: res/simple_cells.png  used on input line 275.
 (pdftex.def)             Requested size: 92.18788pt x 58.96736pt.
-<res/complex_cells.png, id=627, 385.44pt x 172.9662pt>
+<res/complex_cells.png, id=659, 385.44pt x 172.9662pt>
 File: res/complex_cells.png Graphic file (type png)
 <use res/complex_cells.png>
-Package pdftex.def Info: res/complex_cells.png  used on input line 274.
+Package pdftex.def Info: res/complex_cells.png  used on input line 275.
 (pdftex.def)             Requested size: 115.23369pt x 51.71078pt.
 
-Overfull \vbox (4.30527pt too high) detected at line 274
+Overfull \vbox (4.30527pt too high) detected at line 275
  []
 
 
@@ -1249,20 +1489,20 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/hubel-experiment-cat.png> <./res/hubel-experiment-cat-2.png> <./res/sim
 ple_cells.png> <./res/complex_cells.png>]
-<res/convolution.png, id=665, 4553.01pt x 1707.37875pt>
+<res/convolution.png, id=701, 4553.01pt x 1707.37875pt>
 File: res/convolution.png Graphic file (type png)
 <use res/convolution.png>
-Package pdftex.def Info: res/convolution.png  used on input line 311.
+Package pdftex.def Info: res/convolution.png  used on input line 312.
 (pdftex.def)             Requested size: 115.23369pt x 43.19499pt.
-<res/convolution_kernels_examples.png, id=666, 605.26125pt x 256.96pt>
+<res/convolution_kernels_examples.png, id=702, 605.26125pt x 256.96pt>
 File: res/convolution_kernels_examples.png Graphic file (type png)
 <use res/convolution_kernels_examples.png>
 Package pdftex.def Info: res/convolution_kernels_examples.png  used on input li
-ne 311.
+ne 312.
 (pdftex.def)             Requested size: 115.23369pt x 48.92093pt.
 File: res/simple_cells.png Graphic file (type png)
 <use res/simple_cells.png>
-Package pdftex.def Info: res/simple_cells.png  used on input line 311.
+Package pdftex.def Info: res/simple_cells.png  used on input line 312.
 (pdftex.def)             Requested size: 115.23369pt x 73.71173pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1271,14 +1511,14 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [15
 
  <./res/convolution.png> <./res/convolution_kernels_examples.png (PNG copy)>]
-<res/max_pooling.png, id=705, 403.5075pt x 162.6075pt>
+<res/max_pooling.png, id=746, 403.5075pt x 162.6075pt>
 File: res/max_pooling.png Graphic file (type png)
 <use res/max_pooling.png>
-Package pdftex.def Info: res/max_pooling.png  used on input line 338.
+Package pdftex.def Info: res/max_pooling.png  used on input line 339.
 (pdftex.def)             Requested size: 115.23369pt x 46.4379pt.
 File: res/complex_cells.png Graphic file (type png)
 <use res/complex_cells.png>
-Package pdftex.def Info: res/complex_cells.png  used on input line 338.
+Package pdftex.def Info: res/complex_cells.png  used on input line 339.
 (pdftex.def)             Requested size: 115.23369pt x 51.71078pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1287,11 +1527,11 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [16
 
  <./res/max_pooling.png>]
-<res/simple_cells_auditory_cortes.png, id=744, 60.7068pt x 20.35605pt>
+<res/simple_cells_auditory_cortes.png, id=787, 60.7068pt x 20.35605pt>
 File: res/simple_cells_auditory_cortes.png Graphic file (type png)
 <use res/simple_cells_auditory_cortes.png>
 Package pdftex.def Info: res/simple_cells_auditory_cortes.png  used on input li
-ne 357.
+ne 358.
 (pdftex.def)             Requested size: 276.559pt x 92.76416pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1300,11 +1540,11 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [17
 
  <./res/simple_cells_auditory_cortes.png>]
-<res/sensitivity_vs_relevance.png, id=781, 1437.37pt x 1214.5375pt>
+<res/sensitivity_vs_relevance.png, id=827, 1437.37pt x 1214.5375pt>
 File: res/sensitivity_vs_relevance.png Graphic file (type png)
 <use res/sensitivity_vs_relevance.png>
 Package pdftex.def Info: res/sensitivity_vs_relevance.png  used on input line 3
-69.
+70.
 (pdftex.def)             Requested size: 199.73653pt x 168.75536pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1313,11 +1553,15 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [18
 
  <./res/sensitivity_vs_relevance.png>]
-<res/dataset_blf.png, id=818, 783.92876pt x 532.99126pt>
+<res/dataset_blf.png, id=867, 783.92876pt x 532.99126pt>
 File: res/dataset_blf.png Graphic file (type png)
 <use res/dataset_blf.png>
-Package pdftex.def Info: res/dataset_blf.png  used on input line 386.
+Package pdftex.def Info: res/dataset_blf.png  used on input line 387.
 (pdftex.def)             Requested size: 245.83282pt x 167.13678pt.
+
+Overfull \vbox (5.2629pt too high) detected at line 387
+ []
+
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
@@ -1328,10 +1572,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [19
 
  <./res/dataset_blf.png>]
-<res/dataset_preprocessing.png, id=865, 1546.77875pt x 1018.80624pt>
+<res/dataset_preprocessing.png, id=925, 1546.77875pt x 1018.80624pt>
 File: res/dataset_preprocessing.png Graphic file (type png)
 <use res/dataset_preprocessing.png>
-Package pdftex.def Info: res/dataset_preprocessing.png  used on input line 396.
+Package pdftex.def Info: res/dataset_preprocessing.png  used on input line 397.
 
 (pdftex.def)             Requested size: 276.559pt x 182.1491pt.
 
@@ -1344,11 +1588,11 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [20
 
  <./res/dataset_preprocessing.png>]
-<res/dataset_feature_extraction.png, id=904, 1496.59125pt x 819.06pt>
+<res/dataset_feature_extraction.png, id=964, 1496.59125pt x 819.06pt>
 File: res/dataset_feature_extraction.png Graphic file (type png)
 <use res/dataset_feature_extraction.png>
 Package pdftex.def Info: res/dataset_feature_extraction.png  used on input line
- 406.
+ 407.
 (pdftex.def)             Requested size: 307.28987pt x 168.17084pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1362,10 +1606,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/dataset_feature_extraction.png>]
 File: res/tcn.png Graphic file (type png)
 <use res/tcn.png>
-Package pdftex.def Info: res/tcn.png  used on input line 440.
+Package pdftex.def Info: res/tcn.png  used on input line 442.
 (pdftex.def)             Requested size: 184.3758pt x 178.61037pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-40.
+42.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1379,16 +1623,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [22
 
 ]
-<res/cloud_training.png, id=990, 1121.18875pt x 372.39125pt>
+<res/cloud_training.png, id=1052, 1121.18875pt x 372.39125pt>
 File: res/cloud_training.png Graphic file (type png)
 <use res/cloud_training.png>
-Package pdftex.def Info: res/cloud_training.png  used on input line 483.
+Package pdftex.def Info: res/cloud_training.png  used on input line 485.
 (pdftex.def)             Requested size: 215.10196pt x 71.44261pt.
-<res/implementation_framework.png, id=991, 295.1025pt x 452.69125pt>
+<res/implementation_framework.png, id=1053, 295.1025pt x 452.69125pt>
 File: res/implementation_framework.png Graphic file (type png)
 <use res/implementation_framework.png>
 Package pdftex.def Info: res/implementation_framework.png  used on input line 4
-83.
+85.
 (pdftex.def)             Requested size: 56.9055pt x 87.29012pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1400,26 +1644,26 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [23
 
  <./res/cloud_training.png> <./res/implementation_framework.png>]
-<res/deep_taylor.png, id=1032, 325.215pt x 305.7021pt>
+<res/deep_taylor.png, id=1095, 325.215pt x 305.7021pt>
 File: res/deep_taylor.png Graphic file (type png)
 <use res/deep_taylor.png>
-Package pdftex.def Info: res/deep_taylor.png  used on input line 508.
+Package pdftex.def Info: res/deep_taylor.png  used on input line 511.
 (pdftex.def)             Requested size: 82.96854pt x 77.98798pt.
-<res/inference_and_relevance_analysis.png, id=1034, 1125.20375pt x 878.28125pt>
+<res/inference_and_relevance_analysis.png, id=1098, 1125.20375pt x 878.28125pt>
 
 File: res/inference_and_relevance_analysis.png Graphic file (type png)
 <use res/inference_and_relevance_analysis.png>
 Package pdftex.def Info: res/inference_and_relevance_analysis.png  used on inpu
-t line 508.
+t line 511.
 (pdftex.def)             Requested size: 215.10196pt x 167.89368pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 508.
+(Font)              <10.95> on input line 511.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 508.
+(Font)              <8> on input line 511.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 508.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 511.
 
-Overfull \vbox (1.78723pt too high) detected at line 508
+Overfull \vbox (1.78723pt too high) detected at line 511
  []
 
 
@@ -1432,10 +1676,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [24
 
  <./res/deep_taylor.png> <./res/inference_and_relevance_analysis.png>]
-<res/resynthesis.png, id=1076, 1536.74126pt x 830.10126pt>
+<res/resynthesis.png, id=1140, 1536.74126pt x 830.10126pt>
 File: res/resynthesis.png Graphic file (type png)
 <use res/resynthesis.png>
-Package pdftex.def Info: res/resynthesis.png  used on input line 522.
+Package pdftex.def Info: res/resynthesis.png  used on input line 525.
 (pdftex.def)             Requested size: 307.28987pt x 165.97931pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1447,20 +1691,20 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [25
 
  <./res/resynthesis.png>]
-<res/experiment_infra.png, id=1116, 1758.57pt x 1419.3025pt>
+<res/experiment_infra.png, id=1182, 1758.57pt x 1419.3025pt>
 File: res/experiment_infra.png Graphic file (type png)
 <use res/experiment_infra.png>
-Package pdftex.def Info: res/experiment_infra.png  used on input line 544.
+Package pdftex.def Info: res/experiment_infra.png  used on input line 547.
 (pdftex.def)             Requested size: 153.64493pt x 123.98509pt.
-<res/experiment_stack.png, id=1117, 485.815pt x 125.46875pt>
+<res/experiment_stack.png, id=1183, 485.815pt x 125.46875pt>
 File: res/experiment_stack.png Graphic file (type png)
 <use res/experiment_stack.png>
-Package pdftex.def Info: res/experiment_stack.png  used on input line 544.
+Package pdftex.def Info: res/experiment_stack.png  used on input line 547.
 (pdftex.def)             Requested size: 76.82246pt x 19.83992pt.
-<res/experiment_diagram.png, id=1118, 864.22874pt x 894.34125pt>
+<res/experiment_diagram.png, id=1184, 864.22874pt x 894.34125pt>
 File: res/experiment_diagram.png Graphic file (type png)
 <use res/experiment_diagram.png>
-Package pdftex.def Info: res/experiment_diagram.png  used on input line 544.
+Package pdftex.def Info: res/experiment_diagram.png  used on input line 547.
 (pdftex.def)             Requested size: 122.9164pt x 127.18567pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1475,26 +1719,26 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 agram.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 550.
+(hyperref)                removing `math shift' on input line 553.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 550.
+(hyperref)                removing `subscript' on input line 553.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 550.
+(hyperref)                removing `math shift' on input line 553.
 
-<res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq.png, id=1161, 470.5981
+<res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq.png, id=1228, 470.5981
 4pt x 369.90195pt>
 File: res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq.png Graphic file 
 (type png)
 <use res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_fre
-q.png  used on input line 560.
+q.png  used on input line 563.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
-Overfull \vbox (0.19937pt too high) detected at line 560
+Overfull \vbox (0.19937pt too high) detected at line 563
  []
 
 
@@ -1504,13 +1748,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [27
 
  <./res/amu_pl_ilo_BAZA_2006A_zbitki_A0025_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png, id=1203, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png, id=1271, 470.59814pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png  
-used on input line 570.
+used on input line 573.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1519,13 +1763,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [28
 
  <./res/amu_pl_ilo_BAZA_2006C_C0545_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png, id=1240, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png, id=1309, 470.59814pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png  
-used on input line 580.
+used on input line 583.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1534,13 +1778,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [29
 
  <./res/amu_pl_ilo_BAZA_2006C_C0221_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png, id=1278, 473.48895pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png, id=1348, 473.48895pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png  
-used on input line 590.
+used on input line 593.
 (pdftex.def)             Requested size: 215.10196pt x 168.04036pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1549,16 +1793,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [30
 
  <./res/amu_pl_ilo_BAZA_2006C_C0271_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png, id=1315, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png, id=1386, 470.59814pt x 3
 71.58826pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png  
-used on input line 600.
+used on input line 603.
 (pdftex.def)             Requested size: 215.10196pt x 169.84402pt.
 
-Overfull \vbox (0.97014pt too high) detected at line 600
+Overfull \vbox (0.97014pt too high) detected at line 603
  []
 
 
@@ -1568,16 +1812,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [31
 
  <./res/amu_pl_ilo_BAZA_2006C_C0278_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png, id=1353, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png, id=1426, 470.59814pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png  
-used on input line 610.
+used on input line 613.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
-Overfull \vbox (0.19937pt too high) detected at line 610
+Overfull \vbox (0.19937pt too high) detected at line 613
  []
 
 
@@ -1587,16 +1831,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [32
 
  <./res/amu_pl_ilo_BAZA_2006C_C0362_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq.png, id=1391, 470.5981
+<res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq.png, id=1464, 470.5981
 4pt x 369.90195pt>
 File: res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq.png Graphic file 
 (type png)
 <use res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_fre
-q.png  used on input line 620.
+q.png  used on input line 623.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
-Overfull \vbox (0.19937pt too high) detected at line 620
+Overfull \vbox (0.19937pt too high) detected at line 623
  []
 
 
@@ -1606,13 +1850,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [33
 
  <./res/amu_pl_ilo_BAZA_2006A_zbitki_A0036_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png, id=1428, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png, id=1502, 470.59814pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png  
-used on input line 630.
+used on input line 633.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1621,13 +1865,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [34
 
  <./res/amu_pl_ilo_BAZA_2006C_C0160_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png, id=1465, 470.59814pt x 3
+<res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png, id=1541, 470.59814pt x 3
 69.90195pt>
 File: res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png  
-used on input line 640.
+used on input line 643.
 (pdftex.def)             Requested size: 215.10196pt x 169.07326pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1636,13 +1880,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [35
 
  <./res/amu_pl_ilo_BAZA_2006D_D1140_simple_pred_freq.png>]
-<res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png, id=1502, 475.5366pt x 36
+<res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png, id=1578, 475.5366pt x 36
 9.90195pt>
 File: res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png Graphic file (type p
 ng)
 <use res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png>
 Package pdftex.def Info: res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png  
-used on input line 650.
+used on input line 653.
 (pdftex.def)             Requested size: 215.10196pt x 167.3179pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1651,16 +1895,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [36
 
  <./res/amu_pl_ilo_BAZA_2006C_C0208_simple_pred_freq.png>]
-<res/mse.png, id=1538, 581.17125pt x 168.63pt>
+<res/mse.png, id=1615, 581.17125pt x 168.63pt>
 File: res/mse.png Graphic file (type png)
 <use res/mse.png>
-Package pdftex.def Info: res/mse.png  used on input line 662.
+Package pdftex.def Info: res/mse.png  used on input line 665.
 (pdftex.def)             Requested size: 215.10196pt x 62.4127pt.
-<res/mse_form.png, id=1539, 640.3925pt x 176.66pt>
+<res/mse_form.png, id=1616, 640.3925pt x 176.66pt>
 File: res/mse_form.png Graphic file (type png)
 <use res/mse_form.png>
-Package pdftex.def Info: res/mse_form.png  used on input line 662.
-(pdftex.def)             Requested size: 153.64493pt x 42.38309pt.
+Package pdftex.def Info: res/mse_form.png  used on input line 665.
+(pdftex.def)             Requested size: 92.1879pt x 25.43039pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
@@ -1668,40 +1912,40 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [37
 
  <./res/mse.png> <./res/mse_form.png>]
-<res/MOS-answer.png, id=1576, 462.528pt x 346.896pt>
+<res/MOS-answer.png, id=1655, 462.528pt x 346.896pt>
 File: res/MOS-answer.png Graphic file (type png)
 <use res/MOS-answer.png>
-Package pdftex.def Info: res/MOS-answer.png  used on input line 708.
+Package pdftex.def Info: res/MOS-answer.png  used on input line 711.
 (pdftex.def)             Requested size: 107.55098pt x 80.66307pt.
-<res/MOS_correlation_matrix.png, id=1577, 672.5125pt x 512.91624pt>
+<res/MOS_correlation_matrix.png, id=1656, 672.5125pt x 512.91624pt>
 File: res/MOS_correlation_matrix.png Graphic file (type png)
 <use res/MOS_correlation_matrix.png>
-Package pdftex.def Info: res/MOS_correlation_matrix.png  used on input line 708
+Package pdftex.def Info: res/MOS_correlation_matrix.png  used on input line 711
 .
 (pdftex.def)             Requested size: 107.55098pt x 82.02132pt.
-<res/MOS_number_of_scores_natural_stimuli.png, id=1578, 618.31pt x 583.17876pt>
+<res/MOS_number_of_scores_natural_stimuli.png, id=1657, 618.31pt x 583.17876pt>
 
 File: res/MOS_number_of_scores_natural_stimuli.png Graphic file (type png)
 <use res/MOS_number_of_scores_natural_stimuli.png>
 Package pdftex.def Info: res/MOS_number_of_scores_natural_stimuli.png  used on 
-input line 708.
+input line 711.
 (pdftex.def)             Requested size: 46.09395pt x 43.46956pt.
-<res/MOS_stimulus_type_mean_response_time.png, id=1579, 629.35126pt x 585.18625
+<res/MOS_stimulus_type_mean_response_time.png, id=1658, 629.35126pt x 585.18625
 pt>
 File: res/MOS_stimulus_type_mean_response_time.png Graphic file (type png)
 <use res/MOS_stimulus_type_mean_response_time.png>
 Package pdftex.def Info: res/MOS_stimulus_type_mean_response_time.png  used on 
-input line 708.
+input line 711.
 (pdftex.def)             Requested size: 46.09395pt x 42.85127pt.
-<res/MOS_number_of_scores_synthetic_stimuli.png, id=1580, 618.31pt x 583.17876p
+<res/MOS_number_of_scores_synthetic_stimuli.png, id=1659, 618.31pt x 583.17876p
 t>
 File: res/MOS_number_of_scores_synthetic_stimuli.png Graphic file (type png)
 <use res/MOS_number_of_scores_synthetic_stimuli.png>
 Package pdftex.def Info: res/MOS_number_of_scores_synthetic_stimuli.png  used o
-n input line 708.
+n input line 711.
 (pdftex.def)             Requested size: 46.09395pt x 43.46956pt.
 
-Overfull \vbox (6.11699pt too high) detected at line 708
+Overfull \vbox (6.11699pt too high) detected at line 711
  []
 
 
@@ -1715,21 +1959,21 @@ _scores_natural_stimuli.png> <./res/MOS_stimulus_type_mean_response_time.png> <
 ./res/MOS_number_of_scores_synthetic_stimuli.png>]
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 733.
+(Font)              using `T1/ptm/m/sc' instead on input line 736.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 733.
+(Font)              using `T1/ptm/m/sc' instead on input line 736.
 
-<res/ABX_individual.png, id=1622, 462.528pt x 346.896pt>
+<res/ABX_individual.png, id=1702, 462.528pt x 346.896pt>
 File: res/ABX_individual.png Graphic file (type png)
 <use res/ABX_individual.png>
-Package pdftex.def Info: res/ABX_individual.png  used on input line 733.
+Package pdftex.def Info: res/ABX_individual.png  used on input line 736.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
-<res/ABX_histogram.png, id=1623, 462.528pt x 346.896pt>
+<res/ABX_histogram.png, id=1703, 462.528pt x 346.896pt>
 File: res/ABX_histogram.png Graphic file (type png)
 <use res/ABX_histogram.png>
-Package pdftex.def Info: res/ABX_histogram.png  used on input line 733.
+Package pdftex.def Info: res/ABX_histogram.png  used on input line 736.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1738,28 +1982,28 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [39
 
  <./res/ABX_individual.png> <./res/ABX_histogram.png>]
-<res/ABX_stimulus_type_correct_answers.png, id=1663, 880.28876pt x 581.17125pt>
+<res/ABX_stimulus_type_correct_answers.png, id=1743, 880.28876pt x 581.17125pt>
 
 File: res/ABX_stimulus_type_correct_answers.png Graphic file (type png)
 <use res/ABX_stimulus_type_correct_answers.png>
 Package pdftex.def Info: res/ABX_stimulus_type_correct_answers.png  used on inp
-ut line 760.
+ut line 763.
 (pdftex.def)             Requested size: 122.91406pt x 81.14171pt.
-<res/ABX_stimulus_type_mean_response_time.png, id=1664, 617.30624pt x 584.1825p
+<res/ABX_stimulus_type_mean_response_time.png, id=1744, 617.30624pt x 584.1825p
 t>
 File: res/ABX_stimulus_type_mean_response_time.png Graphic file (type png)
 <use res/ABX_stimulus_type_mean_response_time.png>
 Package pdftex.def Info: res/ABX_stimulus_type_mean_response_time.png  used on 
-input line 760.
+input line 763.
 (pdftex.def)             Requested size: 55.3133pt x 52.34239pt.
-<res/ABX_correlation_matrix.png, id=1665, 684.5575pt x 489.83pt>
+<res/ABX_correlation_matrix.png, id=1745, 684.5575pt x 489.83pt>
 File: res/ABX_correlation_matrix.png Graphic file (type png)
 <use res/ABX_correlation_matrix.png>
-Package pdftex.def Info: res/ABX_correlation_matrix.png  used on input line 760
+Package pdftex.def Info: res/ABX_correlation_matrix.png  used on input line 763
 .
 (pdftex.def)             Requested size: 110.62659pt x 79.1517pt.
 
-Overfull \vbox (1.23686pt too high) detected at line 760
+Overfull \vbox (1.23686pt too high) detected at line 763
  []
 
 
@@ -1770,12 +2014,12 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/ABX_stimulus_type_correct_answers.png> <./res/ABX_stimulus_type_mean_re
 sponse_time.png> <./res/ABX_correlation_matrix.png>]
-<res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png, id=1704, 1288.815pt x 523.957
+<res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png, id=1785, 1288.815pt x 523.957
 5pt>
 File: res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png Graphic file (type png)
 <use res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png>
 Package pdftex.def Info: res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png  used 
-on input line 773.
+on input line 776.
 (pdftex.def)             Requested size: 307.28987pt x 124.92888pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1784,16 +2028,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [41
 
  <./res/amu_pl_ilo_baza_2006a_zbitki_a0036_zoom.png>]
-<res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036.png, id=1743
+<res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036.png, id=1823
 , 693.18974pt x 590.9277pt>
 File: res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036.png Gra
 phic file (type png)
 <use res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036.png>
 Package pdftex.def Info: res/general_feature_categories_amu_pl_ilo_baza_2006a_z
-bitki_a0036.png  used on input line 787.
+bitki_a0036.png  used on input line 790.
 (pdftex.def)             Requested size: 245.83282pt x 209.55989pt.
 
-Overfull \vbox (12.186pt too high) detected at line 787
+Overfull \vbox (12.186pt too high) detected at line 790
  []
 
 
@@ -1803,16 +2047,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [42
 
  <./res/general_feature_categories_amu_pl_ilo_baza_2006a_zbitki_a0036.png>]
-<res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100.png, id=1780, 693.1
+<res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100.png, id=1861, 693.1
 8974pt x 585.8688pt>
 File: res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100.png Graphic fi
 le (type png)
 <use res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100.png>
 Package pdftex.def Info: res/general_feature_categories_amu_pl_ilo_baza_2006d_d
-0100.png  used on input line 801.
+0100.png  used on input line 804.
 (pdftex.def)             Requested size: 245.83282pt x 207.76585pt.
 
-Overfull \vbox (10.39197pt too high) detected at line 801
+Overfull \vbox (10.39197pt too high) detected at line 804
  []
 
 
@@ -1822,13 +2066,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [43
 
  <./res/general_feature_categories_amu_pl_ilo_baza_2006d_d0100.png>]
-<res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png, id=1818, 616.58356pt x 
+<res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png, id=1901, 616.58356pt x 
 390.4989pt>
 File: res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png Graphic file (type 
 png)
 <use res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png>
 Package pdftex.def Info: res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png 
- used on input line 815.
+ used on input line 818.
 (pdftex.def)             Requested size: 215.10196pt x 136.22977pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1837,13 +2081,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [44
 
  <./res/linguistic_levels_amu_pl_ilo_baza_2006e_e1014.png>]
-<res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.png, id=1856, 647.7801pt
+<res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.png, id=1939, 647.7801pt
  x 365.6862pt>
 File: res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.png Graphic file (t
 ype png)
 <use res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.png>
 Package pdftex.def Info: res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.
-png  used on input line 829.
+png  used on input line 832.
 (pdftex.def)             Requested size: 215.10196pt x 121.4301pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1853,13 +2097,13 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/relation_types_amu_pl_ilo_baza_2006a_zbitki_a0135.png>]
 <res/linguistic_levels_and_relation_types_amu_pl_ilo_baza_2006a_zbitki_a0139.pn
-g, id=1893, 673.19505pt x 527.93234pt>
+g, id=1977, 673.19505pt x 527.93234pt>
 File: res/linguistic_levels_and_relation_types_amu_pl_ilo_baza_2006a_zbitki_a01
 39.png Graphic file (type png)
 <use res/linguistic_levels_and_relation_types_amu_pl_ilo_baza_2006a_zbitki_a013
 9.png>
 Package pdftex.def Info: res/linguistic_levels_and_relation_types_amu_pl_ilo_ba
-za_2006a_zbitki_a0139.png  used on input line 844.
+za_2006a_zbitki_a0139.png  used on input line 847.
 (pdftex.def)             Requested size: 215.10196pt x 168.68402pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1869,10 +2113,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/linguistic_levels_and_relation_types_amu_pl_ilo_baza_2006a_zbitki_a0139
 .png>]
-<res/cumulative_relevance.png, id=1930, 1045.9075pt x 771.88374pt>
+<res/cumulative_relevance.png, id=2016, 1045.9075pt x 771.88374pt>
 File: res/cumulative_relevance.png Graphic file (type png)
 <use res/cumulative_relevance.png>
-Package pdftex.def Info: res/cumulative_relevance.png  used on input line 852.
+Package pdftex.def Info: res/cumulative_relevance.png  used on input line 855.
 (pdftex.def)             Requested size: 245.83282pt x 181.42804pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -1882,16 +2126,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
  <./res/cumulative_relevance.png>]
 <res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories.png, i
-d=1968, 434.46315pt x 526.8483pt>
+d=2054, 434.46315pt x 526.8483pt>
 File: res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories.p
 ng Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories.pn
 g>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(sum)_-_general_f
-eature_categories.png  used on input line 867.
+eature_categories.png  used on input line 870.
 (pdftex.def)             Requested size: 169.01036pt x 204.94746pt.
 
-Overfull \vbox (7.57358pt too high) detected at line 867
+Overfull \vbox (7.57358pt too high) detected at line 870
  []
 
 
@@ -1903,16 +2147,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories.png
 >]
 <res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories_-_no_v
-uv.png, id=2005, 436.5108pt x 526.8483pt>
+uv.png, id=2093, 436.5108pt x 526.8483pt>
 File: res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories_-
 _no_vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories_-_
 no_vuv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(sum)_-_general_f
-eature_categories_-_no_vuv.png  used on input line 882.
+eature_categories_-_no_vuv.png  used on input line 885.
 (pdftex.def)             Requested size: 169.01036pt x 203.99083pt.
 
-Overfull \vbox (6.61694pt too high) detected at line 882
+Overfull \vbox (6.61694pt too high) detected at line 885
  []
 
 
@@ -1924,16 +2168,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(sum)_-_general_feature_categories_-_n
 o_vuv.png>]
 <res/feature_relevance_ranking_-_mean_(sum)_-_detailed_feature_categories_-_no_
-vuv.png, id=2043, 574.5465pt x 698.48955pt>
+vuv.png, id=2132, 574.5465pt x 698.48955pt>
 File: res/feature_relevance_ranking_-_mean_(sum)_-_detailed_feature_categories_
 -_no_vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(sum)_-_detailed_feature_categories_-
 _no_vuv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(sum)_-_detailed_
-feature_categories_-_no_vuv.png  used on input line 896.
+feature_categories_-_no_vuv.png  used on input line 899.
 (pdftex.def)             Requested size: 172.08221pt x 209.20743pt.
 
-Overfull \vbox (11.83354pt too high) detected at line 896
+Overfull \vbox (11.83354pt too high) detected at line 899
  []
 
 
@@ -1945,16 +2189,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(sum)_-_detailed_feature_categories_-_
 no_vuv.png>]
 <res/feature_relevance_ranking_-_mean_(sum)_-_all_feature_categories_-_no_vuv.p
-ng, id=2081, 1136.8071pt x 637.78275pt>
+ng, id=2170, 1136.8071pt x 637.78275pt>
 File: res/feature_relevance_ranking_-_mean_(sum)_-_all_feature_categories_-_no_
 vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(sum)_-_all_feature_categories_-_no_v
 uv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(sum)_-_all_featu
-re_categories_-_no_vuv.png  used on input line 906.
+re_categories_-_no_vuv.png  used on input line 909.
 (pdftex.def)             Requested size: 307.28987pt x 172.39827pt.
 
-Overfull \vbox (3.19104pt too high) detected at line 906
+Overfull \vbox (3.19104pt too high) detected at line 909
  []
 
 
@@ -1966,16 +2210,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(sum)_-_all_feature_categories_-_no_vu
 v.png>]
 <res/feature_relevance_ranking_-_mean_(absolute_sum)_-_general_feature_categori
-es_-_no_vuv.png, id=2118, 436.5108pt x 526.8483pt>
+es_-_no_vuv.png, id=2209, 436.5108pt x 526.8483pt>
 File: res/feature_relevance_ranking_-_mean_(absolute_sum)_-_general_feature_cat
 egories_-_no_vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(absolute_sum)_-_general_feature_cate
 gories_-_no_vuv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(absolute_sum)_-_
-general_feature_categories_-_no_vuv.png  used on input line 920.
+general_feature_categories_-_no_vuv.png  used on input line 923.
 (pdftex.def)             Requested size: 169.01036pt x 203.99083pt.
 
-Overfull \vbox (6.61694pt too high) detected at line 920
+Overfull \vbox (6.61694pt too high) detected at line 923
  []
 
 
@@ -1987,16 +2231,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(absolute_sum)_-_general_feature_categ
 ories_-_no_vuv.png>]
 <res/feature_relevance_ranking_-_mean_(positive_only_sum)_-_general_feature_cat
-egories_-_no_vuv.png, id=2155, 436.5108pt x 530.4618pt>
+egories_-_no_vuv.png, id=2247, 436.5108pt x 530.4618pt>
 File: res/feature_relevance_ranking_-_mean_(positive_only_sum)_-_general_featur
 e_categories_-_no_vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(positive_only_sum)_-_general_feature
 _categories_-_no_vuv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(positive_only_su
-m)_-_general_feature_categories_-_no_vuv.png  used on input line 934.
+m)_-_general_feature_categories_-_no_vuv.png  used on input line 937.
 (pdftex.def)             Requested size: 169.01036pt x 205.38994pt.
 
-Overfull \vbox (8.01605pt too high) detected at line 934
+Overfull \vbox (8.01605pt too high) detected at line 937
  []
 
 
@@ -2008,16 +2252,16 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
  <./res/feature_relevance_ranking_-_mean_(positive_only_sum)_-_general_feature_
 categories_-_no_vuv.png>]
 <res/feature_relevance_ranking_-_mean_(negative_only_sum)_-_general_feature_cat
-egories_-_no_vuv.png, id=2192, 436.5108pt x 526.8483pt>
+egories_-_no_vuv.png, id=2284, 436.5108pt x 526.8483pt>
 File: res/feature_relevance_ranking_-_mean_(negative_only_sum)_-_general_featur
 e_categories_-_no_vuv.png Graphic file (type png)
 <use res/feature_relevance_ranking_-_mean_(negative_only_sum)_-_general_feature
 _categories_-_no_vuv.png>
 Package pdftex.def Info: res/feature_relevance_ranking_-_mean_(negative_only_su
-m)_-_general_feature_categories_-_no_vuv.png  used on input line 948.
+m)_-_general_feature_categories_-_no_vuv.png  used on input line 951.
 (pdftex.def)             Requested size: 169.01036pt x 203.99083pt.
 
-Overfull \vbox (6.61694pt too high) detected at line 948
+Overfull \vbox (6.61694pt too high) detected at line 951
  []
 
 
@@ -2030,22 +2274,22 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 categories_-_no_vuv.png>]
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 989.
+(Font)              using `T1/ptm/m/sc' instead on input line 992.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 989.
+(Font)              using `T1/ptm/m/sc' instead on input line 992.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 989.
+(Font)              using `T1/ptm/m/sc' instead on input line 992.
 
 
 LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
-(Font)              using `T1/ptm/m/sc' instead on input line 989.
+(Font)              using `T1/ptm/m/sc' instead on input line 992.
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 989--989
+Underfull \hbox (badness 1178) in paragraph at lines 992--992
 []\T1/ptm/m/sc/6 Hypothesis 4: [] \T1/ptm/m/it/6 A Deep Tem-po-ral Con-vo-lu-
  []
 
@@ -2068,10 +2312,10 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [57
 
 ]
-<res/cnn_gray.png, id=2336, 469.755pt x 289.08pt>
+<res/cnn_gray.png, id=2433, 469.755pt x 289.08pt>
 File: res/cnn_gray.png Graphic file (type png)
 <use res/cnn_gray.png>
-Package pdftex.def Info: res/cnn_gray.png  used on input line 1053.
+Package pdftex.def Info: res/cnn_gray.png  used on input line 1056.
 (pdftex.def)             Requested size: 61.45703pt x 37.8199pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -2080,15 +2324,14 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 [58
 
  <./res/cnn_gray.png>]
-<res/dilated_convolutions.png, id=2371, 1231.60126pt x 433.62pt>
-File: res/dilated_convolutions.png Graphic file (type png)
-<use res/dilated_convolutions.png>
-Package pdftex.def Info: res/dilated_convolutions.png  used on input line 1095.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
+61.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
-(pdftex.def)             Requested size: 307.28987pt x 108.18639pt.
-
-Overfull \vbox (9.0292pt too high) detected at line 1095
- []
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <9> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 1061.
 
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
@@ -2096,136 +2339,189 @@ Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 [59
 
- <./res/dilated_convolutions.png>]
-<res/residual_blocks.png, id=2408, 651.43375pt x 333.245pt>
-File: res/residual_blocks.png Graphic file (type png)
-<use res/residual_blocks.png>
-Package pdftex.def Info: res/residual_blocks.png  used on input line 1116.
-(pdftex.def)             Requested size: 184.3758pt x 94.31985pt.
-
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [60
 
- <./res/residual_blocks.png>]
-<res/dataset_structure.png, id=2444, 573.14125pt x 452.69125pt>
-File: res/dataset_structure.png Graphic file (type png)
-<use res/dataset_structure.png>
-Package pdftex.def Info: res/dataset_structure.png  used on input line 1126.
-(pdftex.def)             Requested size: 215.10196pt x 169.89694pt.
 
-Overfull \vbox (1.02306pt too high) detected at line 1126
- []
-
-
+]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [61
 
- <./res/dataset_structure.png>]
-<res/stress_accent_labels.png, id=2480, 1035.87pt x 589.20125pt>
-File: res/stress_accent_labels.png Graphic file (type png)
-<use res/stress_accent_labels.png>
-Package pdftex.def Info: res/stress_accent_labels.png  used on input line 1135.
 
-(pdftex.def)             Requested size: 215.10196pt x 122.34238pt.
-
+]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [62
 
- <./res/stress_accent_labels.png>]
-<res/boundary_tones.png, id=2515, 1076.02pt x 837.1275pt>
-File: res/boundary_tones.png Graphic file (type png)
-<use res/boundary_tones.png>
-Package pdftex.def Info: res/boundary_tones.png  used on input line 1144.
-(pdftex.def)             Requested size: 215.10196pt x 167.34589pt.
 
+]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [63
 
- <./res/boundary_tones.png>]
-<res/tonal_accents.png, id=2549, 612.2875pt x 964.60374pt>
-File: res/tonal_accents.png Graphic file (type png)
-<use res/tonal_accents.png>
-Package pdftex.def Info: res/tonal_accents.png  used on input line 1153.
-(pdftex.def)             Requested size: 122.91406pt x 193.63853pt.
 
-Overfull \vbox (4.35217pt too high) detected at line 1153
- []
-
-
+]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [64
 
- <./res/tonal_accents.png>]
-<res/segmental_features.png, id=2584, 937.5025pt x 1706.375pt>
-File: res/segmental_features.png Graphic file (type png)
-<use res/segmental_features.png>
-Package pdftex.def Info: res/segmental_features.png  used on input line 1174.
-(pdftex.def)             Requested size: 92.18788pt x 167.7834pt.
-<res/suprasegmental_features.png, id=2585, 912.40875pt x 1278.7775pt>
-File: res/suprasegmental_features.png Graphic file (type png)
-<use res/suprasegmental_features.png>
-Package pdftex.def Info: res/suprasegmental_features.png  used on input line 11
-74.
-(pdftex.def)             Requested size: 122.9164pt x 172.25677pt.
-
-Overfull \vbox (0.99954pt too high) detected at line 1174
- []
-
-
+]
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [65
 
- <./res/segmental_features.png> <./res/suprasegmental_features.png>]
-<res/network_architecture.png, id=2621, 3228.06pt x 5448.355pt>
-File: res/network_architecture.png Graphic file (type png)
-<use res/network_architecture.png>
-Package pdftex.def Info: res/network_architecture.png  used on input line 1178.
+]
+<res/dilated_convolutions.png, id=2734, 1231.60126pt x 433.62pt>
+File: res/dilated_convolutions.png Graphic file (type png)
+<use res/dilated_convolutions.png>
+Package pdftex.def Info: res/dilated_convolutions.png  used on input line 1111.
 
-(pdftex.def)             Requested size: 122.91406pt x 207.42206pt.
+(pdftex.def)             Requested size: 307.28987pt x 108.18639pt.
+
+Overfull \vbox (9.0292pt too high) detected at line 1111
+ []
+
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [66
 
- <./res/network_architecture.png>]
-File: res/deep_taylor.png Graphic file (type png)
-<use res/deep_taylor.png>
-Package pdftex.def Info: res/deep_taylor.png  used on input line 1194.
-(pdftex.def)             Requested size: 122.91406pt x 115.53827pt.
+ <./res/dilated_convolutions.png>]
+<res/residual_blocks.png, id=2771, 651.43375pt x 333.245pt>
+File: res/residual_blocks.png Graphic file (type png)
+<use res/residual_blocks.png>
+Package pdftex.def Info: res/residual_blocks.png  used on input line 1132.
+(pdftex.def)             Requested size: 184.3758pt x 94.31985pt.
 
 Overfull \vbox (1.36163pt too high) has occurred while \output is active []
 
 
 [67
 
+ <./res/residual_blocks.png>]
+<res/dataset_structure.png, id=2809, 573.14125pt x 452.69125pt>
+File: res/dataset_structure.png Graphic file (type png)
+<use res/dataset_structure.png>
+Package pdftex.def Info: res/dataset_structure.png  used on input line 1139.
+(pdftex.def)             Requested size: 215.10196pt x 169.89694pt.
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[68
+
+ <./res/dataset_structure.png>]
+<res/stress_accent_labels.png, id=2844, 1035.87pt x 589.20125pt>
+File: res/stress_accent_labels.png Graphic file (type png)
+<use res/stress_accent_labels.png>
+Package pdftex.def Info: res/stress_accent_labels.png  used on input line 1148.
+
+(pdftex.def)             Requested size: 215.10196pt x 122.34238pt.
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[69
+
+ <./res/stress_accent_labels.png>]
+<res/boundary_tones.png, id=2876, 1076.02pt x 837.1275pt>
+File: res/boundary_tones.png Graphic file (type png)
+<use res/boundary_tones.png>
+Package pdftex.def Info: res/boundary_tones.png  used on input line 1157.
+(pdftex.def)             Requested size: 215.10196pt x 167.34589pt.
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[70
+
+ <./res/boundary_tones.png>]
+<res/tonal_accents.png, id=2908, 612.2875pt x 964.60374pt>
+File: res/tonal_accents.png Graphic file (type png)
+<use res/tonal_accents.png>
+Package pdftex.def Info: res/tonal_accents.png  used on input line 1166.
+(pdftex.def)             Requested size: 122.91406pt x 193.63853pt.
+
+Overfull \vbox (4.35217pt too high) detected at line 1166
+ []
+
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[71
+
+ <./res/tonal_accents.png>]
+<res/segmental_features.png, id=2944, 937.5025pt x 1706.375pt>
+File: res/segmental_features.png Graphic file (type png)
+<use res/segmental_features.png>
+Package pdftex.def Info: res/segmental_features.png  used on input line 1187.
+(pdftex.def)             Requested size: 92.18788pt x 167.7834pt.
+<res/suprasegmental_features.png, id=2945, 912.40875pt x 1278.7775pt>
+File: res/suprasegmental_features.png Graphic file (type png)
+<use res/suprasegmental_features.png>
+Package pdftex.def Info: res/suprasegmental_features.png  used on input line 11
+87.
+(pdftex.def)             Requested size: 122.9164pt x 172.25677pt.
+
+Overfull \vbox (0.99954pt too high) detected at line 1187
+ []
+
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[72
+
+ <./res/segmental_features.png> <./res/suprasegmental_features.png>]
+<res/network_architecture.png, id=2979, 3228.06pt x 5448.355pt>
+File: res/network_architecture.png Graphic file (type png)
+<use res/network_architecture.png>
+Package pdftex.def Info: res/network_architecture.png  used on input line 1193.
+
+(pdftex.def)             Requested size: 122.91406pt x 207.42206pt.
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[73
+
+ <./res/network_architecture.png>]
+File: res/deep_taylor.png Graphic file (type png)
+<use res/deep_taylor.png>
+Package pdftex.def Info: res/deep_taylor.png  used on input line 1210.
+(pdftex.def)             Requested size: 122.91406pt x 115.53827pt.
+
+Overfull \vbox (1.36163pt too high) has occurred while \output is active []
+
+
+[74
+
 ]
-\tf@nav=\write8
-\openout8 = `obrona_prezentacja_kuczmarski_tomasz.nav'.
+\tf@nav=\write9
+\openout9 = `obrona_prezentacja_kuczmarski_tomasz.nav'.
 
-\tf@toc=\write9
-\openout9 = `obrona_prezentacja_kuczmarski_tomasz.toc'.
+\tf@toc=\write10
+\openout10 = `obrona_prezentacja_kuczmarski_tomasz.toc'.
 
-\tf@snm=\write10
-\openout10 = `obrona_prezentacja_kuczmarski_tomasz.snm'.
+\tf@snm=\write11
+\openout11 = `obrona_prezentacja_kuczmarski_tomasz.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1213.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1213.
  (./obrona_prezentacja_kuczmarski_tomasz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1213.
 
 
 
@@ -2236,42 +2532,51 @@ Package rerunfilecheck Warning: File `obrona_prezentacja_kuczmarski_tomasz.out'
 
 Package rerunfilecheck Info: Checksums for `obrona_prezentacja_kuczmarski_tomas
 z.out':
-(rerunfilecheck)             Before: 7E369C0AA094FB8933A4797B664DF05B;1468
-(rerunfilecheck)             After:  1E6021453D6C0F76842A2285074CFF15;1689.
+(rerunfilecheck)             Before: 1E6021453D6C0F76842A2285074CFF15;1689
+(rerunfilecheck)             After:  E0BFABFA54C65152F5B3D0D0DD7AF313;1735.
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'obrona_prezentacja_kuczmarski_tomasz.
+run.xml'.
+\openout1 = `obrona_prezentacja_kuczmarski_tomasz.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 24159 strings out of 482519
- 496143 string characters out of 5951875
- 725993 words of memory out of 5000000
- 38534 multiletter control sequences out of 15000+600000
- 607697 words of font info for 77 fonts, out of 8000000 for 9000
+ 30918 strings out of 482519
+ 631134 string characters out of 5951875
+ 1226210 words of memory out of 5000000
+ 45203 multiletter control sequences out of 15000+600000
+ 610811 words of font info for 79 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 58i,22n,80p,803b,979s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.6.1.58} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr
-/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/shar
-e/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on obrona_prezentacja_kuczmarski_tomasz.pdf (67 pages, 20692533 
+ 58i,22n,80p,803b,2001s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/sh
+are/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+mi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmtt8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on obrona_prezentacja_kuczmarski_tomasz.pdf (74 pages, 20768483 
 bytes).
 PDF statistics:
- 2792 PDF objects out of 2984 (max. 8388607)
- 2519 compressed objects within 26 object streams
- 162 named destinations out of 1000 (max. 500000)
- 672 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3166 PDF objects out of 3580 (max. 8388607)
+ 2863 compressed objects within 29 object streams
+ 199 named destinations out of 1000 (max. 500000)
+ 696 words of extra memory for PDF output out of 10000 (max. 10000000)
 
